@@ -1,0 +1,923 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5676296366917,
+          -32.74243214601168
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Name": "Central Park Cafe",
+        "URL": "https://www.centralparkcafe.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7373036575249,
+          -32.912121367175345
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON NORTH",
+        "Name": "Elma's on Clyde",
+        "URL": "https://www.instagram.com/elmasonclyde/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7083414391656,
+          -32.938090501653434
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Name": "The Golden Goat Cafe",
+        "URL": "https://www.facebook.com/TheGoldenGoatKotara/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61728605858698,
+          -32.78144544006509
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "MAITLAND",
+        "Suburb": "ASHTONFIELD",
+        "Name": "Heritage Gardens Cafe",
+        "URL": "http://www.heritagegardens.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.87005153747563,
+          -32.75047517274416
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MEDOWIE",
+        "Name": "Medowie Macadamias",
+        "URL": "https://www.medowiemacadamias.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6553210565,
+          -33.049685122769695
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT SOUTH",
+        "Name": "Mischief Kitchen",
+        "URL": "https://www.facebook.com/mischiefkitchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70727037964897,
+          -32.87221665750286
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "NEWCASTLE",
+        "Suburb": "SANDGATE",
+        "Name": "Newcastle Food and Flower Market",
+        "URL": "https://foodandflowermarkets.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74631960606052,
+          -32.920959028782356
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Name": "Oasis Cafe",
+        "URL": "https://www.facebook.com/salvoscafes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5900895831232,
+          -32.75962694300998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Name": "Readers Cafe",
+        "URL": "https://www.facebook.com/ReadersCafeAndLarder"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56142531797738,
+          -32.737313867573675
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Name": "Seraphine Cafe",
+        "URL": "http://www.mrag.org.au/cafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.07180938275454,
+          -32.74876428616618
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "TAYLORS BEACH",
+        "Name": "Spirited Play Cafe",
+        "URL": "https://www.spiritedplaycafe.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61781159458778,
+          -32.96152922477443
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SPEERS POINT",
+        "Name": "Table 1 Espresso",
+        "URL": "https://table1espresso.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74304226264647,
+          -32.762989292797265
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Terrace Diner and Play Cafe",
+        "URL": "https://www.facebook.com/terracedinerandplay"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74917128996364,
+          -32.91723296150726
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ISLINGTON",
+        "Name": "Slingtown (Suspension)",
+        "URL": "https://www.slingtown.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73623981148,
+          -32.89681149632744
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Onyx Espresso",
+        "URL": "https://onyxespressobar.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71668783199743,
+          -32.938786137536596
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Fernleigh Cafe",
+        "URL": "https://www.facebook.com/FernleighCafe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73080558432275,
+          -32.93479833706236
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Bondwood",
+        "URL": "https://www.facebook.com/thebondwood/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71482052737252,
+          -32.92245149144242
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "Sherwood",
+        "URL": "https://www.sherwoodcoffee.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.771770417772,
+          -32.93154087376075
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "The Autumn Rooms",
+        "URL": "https://autumnrooms.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7766859846337,
+          -32.92545977790156
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Lynch's Hub",
+        "URL": "https://www.lynchshub.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7716148996334,
+          -32.93168536383381
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Goldbergs",
+        "URL": "https://www.facebook.com/goldbergscoffeehouse/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76408353029254,
+          -32.91693444810858
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Name": "Cafe Inu",
+        "URL": "https://cafeinu.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78673319192887,
+          -32.92931529208881
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "The Kiosk",
+        "URL": "https://www.thekiosknewcastlebeach.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66002878195098,
+          -33.03654569480831
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "The Wise Owl",
+        "URL": "https://www.thewiseowlbelmont.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71983529698767,
+          -33.013883250391906
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "REDHEAD",
+        "Name": "Cargo Cafe",
+        "URL": "https://www.cargoespressobar.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76094901182216,
+          -32.94481224052111
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "Sunnyboy",
+        "URL": "https://www.instagram.com/sunnyboykiosk/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64999883308903,
+          -33.07845888171455
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BLACKSMITHS",
+        "Name": "The Yoga Place Cafe",
+        "URL": "https://www.theyogaplacecafe.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65699279070105,
+          -32.951544674455256
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Name": "Food Farmacy Cafe",
+        "URL": "https://www.facebook.com/farmacybysozo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7292215903722,
+          -32.90829009488734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "LGA": "NEWCASTLE",
+        "Suburb": "GEORGETOWN",
+        "Name": "The George Cafe",
+        "URL": "https://www.instagram.com/thegeorgeespresso/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.79196806675495,
+          -32.92471885331691
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE EAST",
+        "Name": "Swell Cafe",
+        "URL": "https://www.facebook.com/SwellKiosks/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76703806949908,
+          -32.941596714747185
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BAR BEACH",
+        "Name": "Swell Cafe",
+        "URL": "https://www.facebook.com/SwellKiosks/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75675133900972,
+          -32.94834671131389
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "Blue Door Cafe",
+        "URL": "https://blue-door.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75909562210106,
+          -32.93780344434099
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "LGA": "NEWCASTLE",
+        "Suburb": "THE JUNCTION",
+        "Name": "The Hood Milk Bar",
+        "URL": "https://thehoodmilkbar.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78171799651236,
+          -32.92699538696973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Ka-Fey Cafe",
+        "URL": "https://www.facebook.com/Kafeycafe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3562783087945,
+          -32.833639454976854
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Chameleon Play Cafe",
+        "URL": "https://chameleonplaycafe.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7409356629996,
+          -32.764464723854545
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "The Rectory",
+        "URL": "https://www.therectory.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74116159648008,
+          -32.760780008943776
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Riverhouse Cafe",
+        "URL": "https://www.riverhousecafe.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1430377475584,
+          -32.72065474236031
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Name": "The Little Nel",
+        "URL": "https://littlenel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1433923386522,
+          -32.721676149563024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Name": "Cafe Kin",
+        "URL": "https://cafekin.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77953052513362,
+          -32.92717453131823
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Mr Sister Coffee",
+        "URL": "https://www.facebook.com/mrsistercoffee/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61483888066638,
+          -32.9748050524387
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BOORAGUL",
+        "Name": "Three Bears Cafe",
+        "URL": "https://mac.lakemac.com.au/Visit/Three-Bears-Cafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70833820433225,
+          -32.97865619030777
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WHITEBRIDGE",
+        "Name": "Pegs Cafe",
+        "URL": "https://www.facebook.com/p/PEGS-CAFE-100063456855151/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6447739008166,
+          -33.10462049494937
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAVES BEACH",
+        "Name": "Boffee Cafe",
+        "URL": "https://www.facebook.com/boffeecafe/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64453183718686,
+          -32.9742878204616
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Hippo Espresso",
+        "URL": "https://hippoespresso.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70282827614605,
+          -32.991857707418944
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GATESHEAD",
+        "Name": "Poppy's Cafe",
+        "URL": "https://poppysgc.com.au/pages/cafe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59897691536798,
+          -33.01536329846571
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Sabi",
+        "URL": "https://www.instagram.com/sabi.coffee_/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57979018818503,
+          -33.06665917874737
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Name": "Market Street Cafe",
+        "URL": "https://www.facebook.com/profile.php?id=100057435160015"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.45386872555423,
+          -33.076317313304145
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "COORANBONG",
+        "Name": "Relish Coffeehouse",
+        "URL": "https://www.facebook.com/CoffeehouseRelish/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78608707057597,
+          -32.92910921710298
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Estabar",
+        "URL": "https://estabar.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77262165414868,
+          -32.93017976113565
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Coco Monde",
+        "URL": "https://www.cocomonde.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73111068543093,
+          -32.935141643840915
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Local Customs",
+        "URL": "https://www.localcustoms.com.au/"
+      }
+    }
+  ]
+}

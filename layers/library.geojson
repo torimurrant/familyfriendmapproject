@@ -1,0 +1,537 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72590263160436,
+          -32.9354511968491
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Adamstown Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/adamstown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65627205617886,
+          -32.80255099127488
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BERESFIELD",
+        "Name": "Beresfield Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/beresfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7587486981282,
+          -32.92565346295887
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE WEST",
+        "Name": "Newcastle Digital Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/digital-library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7479574019101,
+          -32.92338821298159
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Name": "Hamilton Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/hamilton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70980895575985,
+          -32.912019446588765
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "NEWCASTLE",
+        "Suburb": "LAMBTON",
+        "Name": "Lambton Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/lambton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73687851903688,
+          -32.89677441864423
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Mayfield Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/mayfield"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71363731498937,
+          -32.922543562663805
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "New Lambton Library",
+        "Programs": "Toy Library ($30 per year)",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/new-lambton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7723932071821,
+          -32.92942663123826
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Newcastle City Library",
+        "Programs": "Baby Book Time (0-1yo), Crafternoon (5-12yo), Lego Club (5-12yo), Mandarin Rock n Rhyme (0-5yo), Rainbow Storytime (All Ages), Rock n Rhyme (0-3yo), Spanish Rock n Rhyme (0-5yo), Story Stomp (3-5yo)",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/newcastle-city"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7846666176178,
+          -32.91501408298163
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Name": "Stockton Library",
+        "Programs": "None",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/stockton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.665882784654,
+          -32.90210865136722
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Name": "Wallsend Library",
+        "Programs": "Baby Book Time (0-1yo), Lego Club (5-12yo), Rock n Rhyme (0-3yo), Sharing Culture Storytime (All Ages), Story Stomp (3-5yo)",
+        "URL": "https://newcastle.nsw.gov.au/library/connect/visit/our-branches/wallsend"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66113462962537,
+          -33.036782997012935
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "Belmont Library",
+        "Programs": "Books and Babies (0-1yo), Read and Rhyme (1-3yo), Storytime (3-5yo)",
+        "URL": "https://www.lakemac.com.au/Venues/Belmont-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65847078165146,
+          -32.939800833607286
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Name": "Cardiff Library",
+        "Programs": "Books and Babies (0-1yo), Read and Rhyme (1-3yo)",
+        "URL": "https://www.lakemac.com.au/Venues/Cardiff-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6969485645579,
+          -32.962720716725606
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "Charlestown Library",
+        "Programs": "Books and Babies (0-1yo), Read and Rhyme (1-3yo), Lego Robots (12-18yo)",
+        "URL": "https://www.lakemac.com.au/Venues/Charlestown-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4873455234936,
+          -33.10733690394354
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET",
+        "Name": "Morisset Library",
+        "Programs": "Babies into Books (0-1yo), Read and Rhyme (1-3yo), Lego Builders (6yo+)",
+        "URL": "https://www.lakemac.com.au/Venues/Morisset-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62257863579697,
+          -32.95984626367095
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SPEERS POINT",
+        "Name": "Speers Point Library",
+        "Programs": "Books and Babies (0-1yo), Read and Rhyme (1-3yo)",
+        "URL": "https://www.lakemac.com.au/Venues/Speers-Point-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59856079327054,
+          -32.91619430955993
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Name": "Sugar Valley Library Museum",
+        "Programs": "Babies into Books (0-1yo), Read and Rhyme (1-3yo), Lego Builders (6yo+)",
+        "URL": "https://www.lakemac.com.au/Venues/Sugar-Valley-Library-Museu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6370753747642,
+          -33.09117914356638
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA",
+        "Name": "Swansea Library",
+        "Programs": "Books and Babies (0-1yo), Read and Rhyme (1-3yo), Lego Builders (6yo+)",
+        "URL": "https://www.lakemac.com.au/Venues/Swansea-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59623005497704,
+          -33.014602574777285
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Toronto Library",
+        "Programs": "Babies into Books (0-1yo), Read and Rhyme (1-3yo), Stories After School (5-8yo), Lego Builders (6yo+)",
+        "URL": "https://www.lakemac.com.au/Venues/Toronto-Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58810211086276,
+          -33.06989007753699
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Name": "Wangi Library Creative Hub",
+        "Programs": "Babies into Books (0-1yo), Storytime (3-5yo)",
+        "URL": "https://www.lakemac.com.au/Venues/Wangi-Library-Creative-Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5901924725626,
+          -32.75964057183953
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Name": "East Maitland Library",
+        "Programs": "Baby Book Club (0-18mo), Storytime (2-5yo), Lego Club (5-12yo), Dreamtime Stories (3-7yo)",
+        "URL": "https://www.maitlandlibrary.com.au/your-library/using-the-library/our-library-locations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5531026819915,
+          -32.7299699848883
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Name": "Maitland Library",
+        "Programs": "Baby Book Club (0-18mo), Storytime (2-5yo), Lego Club (5-12yo), Dreamtime Stories (3-7yo)",
+        "URL": "https://www.maitlandlibrary.com.au/your-library/using-the-library/our-library-locations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52802632222645,
+          -32.71686626720369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "Rutherford Library",
+        "Programs": "Baby Book Club (0-18mo), Storytime (2-5yo), Lego Club (5-12yo), Dreamtime Stories (3-7yo)",
+        "URL": "https://www.maitlandlibrary.com.au/your-library/using-the-library/our-library-locations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64025276083999,
+          -32.77776091752145
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Name": "Thornton Library",
+        "Programs": "Baby Book Club (0-18mo), Storytime (2-5yo), Lego Club (5-12yo), Dreamtime Stories (3-7yo)",
+        "URL": "https://www.maitlandlibrary.com.au/your-library/using-the-library/our-library-locations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74458700740573,
+          -32.76177935587713
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Raymond Terrace Library",
+        "Programs": "Storytime and Craft (2-5yo), Read and Rhyme (0-2yo), Saturday Lego Days (4yo+), Kids Crew, The Lounge (13-18yo)",
+        "URL": "https://www.portstephens.nsw.gov.au/community/community-venues/libraries/raymond-terrace-library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.03351248461374,
+          -32.73213811819718
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "LEMON TREE PASSAGE",
+        "Name": "Tilligery Community Library",
+        "Programs": "None",
+        "URL": "https://www.portstephens.nsw.gov.au/community/community-venues/libraries/tilligerry-library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10533597700504,
+          -32.73686990458503
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SALAMANDER BAY",
+        "Name": "Tomaree Library and Community Hub",
+        "Programs": "Storytime and Craft (2-5yo), Read and Rhyme (0-2yo), Saturday Lego Days (4yo+), Kids Crew, BaRK @ Tomaree, The Lounge (13-18yo)",
+        "URL": "https://www.portstephens.nsw.gov.au/community/community-venues/libraries/tomaree-library-and-community-centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35618853745322,
+          -32.833776891819
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Cessnock Library",
+        "Programs": "Rhymetime (0-2yo), Storytime (2-6yo)",
+        "URL": "https://www.cessnock.nsw.gov.au/libraries/For-kids-teens/Kids/Rhymetime-and-Storytime"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47909372056625,
+          -32.81946953242998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Name": "Kurri Kurri Library",
+        "Programs": "Rhymetime (0-2yo), Storytime (2-6yo)",
+        "URL": "https://www.cessnock.nsw.gov.au/libraries/For-kids-teens/Kids/Rhymetime-and-Storytime"
+      }
+    }
+  ]
+}

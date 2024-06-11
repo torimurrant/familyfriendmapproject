@@ -1,0 +1,7544 @@
+ {
+ "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65809543947464,
+          -32.89070764761196
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Anna Place Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6864453634413,
+          -32.8890148835134
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Park": "Cook Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75437307354954,
+          -32.9043919548531
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "TIGHES HILL",
+        "Park": "Gross Street Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71794192415155,
+          -32.9026917501542
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH WEST",
+        "Park": "Braye Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7459366686279,
+          -32.9033230688714
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Park": "Dangar Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71750139033622,
+          -32.91815605308412
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Kentish Oval",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70954282267041,
+          -32.9196899866617
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Gwydir Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73448733131139,
+          -32.91467478391273
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON NORTH",
+        "Park": "Smith Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7392873838106,
+          -32.89153422505238
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Park": "Cowie And Usk Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7667406256304,
+          -32.93373661064632
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Park": "Centennial Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65114790499987,
+          -32.87237983173358
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Kariwara Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Baby",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70968428397148,
+          -32.912316205846196
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "LAMBTON",
+        "Park": "Lambton Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65989845257297,
+          -32.88271873479253
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Grange Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69792571958465,
+          -32.94897977134542
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Park": "Nesbitt Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69391648097942,
+          -32.942307880930976
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Park": "Gregory Parade Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6743055208103,
+          -32.91769499602002
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ELERMORE VALE",
+        "Park": "Elermore Vale Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6982422481615,
+          -32.93712269380432
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Blackbutt Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69812905774077,
+          -32.93265826088193
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Richley Recreation Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67264618785177,
+          -32.912913904554486
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Rushton Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77959595662236,
+          -32.91595255208357
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Park": "Ballast Ground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7215924609722,
+          -32.9281506085984
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Mackie Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73718604649463,
+          -32.937908535623585
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Park": "Henderson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64115672562892,
+          -32.86692747811363
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "FLETCHER",
+        "Park": "Kurraka Oval",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72263061519996,
+          -32.90594468461534
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH",
+        "Park": "Coolamin Road Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6703464980294,
+          -32.89622828792359
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Federal Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78495032085587,
+          -32.910401321271664
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Park": "Breen Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6564629921942,
+          -32.87249219765256
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Tumpoaba Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7150385332206,
+          -32.93176743229275
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Alder Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61884657955923,
+          -32.877839257835326
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MINMI",
+        "Park": "Minmi Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.700097032068,
+          -32.904809234905514
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NORTH LAMBTON",
+        "Park": "Pilkington Street Reserve",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75934177845517,
+          -32.94500904639986
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Park": "Dixon Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78687119561442,
+          -32.91937862677865
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Park": "Rawson Park/Pitt Street Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73427071605528,
+          -32.924290916814506
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BROADMEADOW",
+        "Park": "Coorumbung Road Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6618441441896,
+          -32.897083025752146
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Carrington Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.662506131587,
+          -32.80642878666185
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "TARRO",
+        "Park": "Weingartner Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77908591206864,
+          -32.93367885760408
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Park": "King Edward Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74377226778236,
+          -32.92231852254963
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Park": "Gregson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66701707927842,
+          -32.873411422659935
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Whistler Parade Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7663981492165,
+          -32.91119269984128
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Park": "Grahame Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66028562466377,
+          -32.89465168502996
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Hope Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6882258845216,
+          -32.93860779549683
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON HEIGHTS",
+        "Park": "Hollywood Parade Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.756515629164,
+          -32.91172188091123
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYVILLE",
+        "Park": "Hogue Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67966050218638,
+          -32.925203033026676
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "RANKIN PARK",
+        "Park": "Murabarnbah Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74456987024502,
+          -32.943617827113464
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Park": "Woodward Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66221215611367,
+          -32.88621135363587
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Beauford Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73087619729398,
+          -32.93832182474983
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Park": "O'Connell Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69683652487907,
+          -32.909815206839504
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "JESMOND",
+        "Park": "Jesmond Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68108867077456,
+          -32.90533037440762
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "James Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7647602231112,
+          -32.94082636282218
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BAR BEACH",
+        "Park": "Empire Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71753712711478,
+          -32.947241229560035
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN HEIGHTS",
+        "Park": "Claremont Avenue Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73404879175595,
+          -32.90655162969094
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH",
+        "Park": "Waratah Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76446698245977,
+          -32.91526397537992
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Park": "Connolly Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7901410497739,
+          -32.92652577940705
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE EAST",
+        "Park": "Parnell Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71338342414057,
+          -32.88352039327731
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARABROOK",
+        "Park": "Warabrook Wetlands Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72184220429926,
+          -32.8844079355533
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD WEST",
+        "Park": "Stevenson Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74824006400078,
+          -32.93066858187956
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON SOUTH",
+        "Park": "Learmonth Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69187014032175,
+          -32.94880697466694
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Park": "Lugar Street Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68418405683445,
+          -32.90781640450397
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Brickworks Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64919831738985,
+          -32.80210125254694
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BERESFIELD",
+        "Park": "Lindsay Memorial Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75052847367806,
+          -32.94242732981839
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Park": "Campbell Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73516884269324,
+          -32.89734772974645
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Park": "Webb Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73277660034555,
+          -32.88923157029308
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Park": "Bull and Tourle Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69106515370746,
+          -32.88904434036421
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Park": "Northcott Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66813779766395,
+          -32.90635051403754
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Wallsend Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71921749322743,
+          -32.95279677111281
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN HEIGHTS",
+        "Park": "Banksia Close Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6928149937275,
+          -32.87139841879183
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Park": "Lyall Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75536463036687,
+          -32.918535920680505
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WICKHAM",
+        "Park": "Wickham Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7212065932352,
+          -32.93992775781568
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Park": "Fletcher Street Reserve/Laneway Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7326958256318,
+          -32.92044586582776
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BROADMEADOW",
+        "Park": "District Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68619569108114,
+          -32.89558170327722
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BIRMINGHAM GARDENS",
+        "Park": "Harold Myers Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71119653487023,
+          -32.94426404355676
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN HEIGHTS",
+        "Park": "Hudson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67760379676702,
+          -32.909477785316746
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Park": "Cressington Way Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66479803660906,
+          -32.913755543549314
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ELERMORE VALE",
+        "Park": "Stewart Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7478679485724,
+          -32.91253637629365
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ISLINGTON",
+        "Park": "Islington Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71910636264363,
+          -32.891559321877985
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARABROOK",
+        "Park": "Cedrella Crescent Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.788695231087,
+          -32.89726727216169
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Park": "Corroba Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71360768944953,
+          -32.90518773660368
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH WEST",
+        "Park": "Morpeth Road Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71030412690735,
+          -32.907220444461664
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NORTH LAMBTON",
+        "Park": "Hillview Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7725250421365,
+          -32.93360259488021
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "THE HILL",
+        "Park": "Nesca Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67816306630328,
+          -32.92164431193865
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "RANKIN PARK",
+        "Park": "Coldstream Crescent Reserve",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70830237143392,
+          -32.932336027670175
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Novocastrian Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76263814100034,
+          -32.910174050408244
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Park": "Carrington Foreshore",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6566657482421,
+          -32.80739503530309
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "TARRO",
+        "Park": "McCauley Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72011845405007,
+          -32.9103058135524
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH",
+        "Park": "Cameron Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74163925946272,
+          -32.89284828259712
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Park": "Avon Street Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69747178380362,
+          -32.942437363985
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Park": "Kotara Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6931237303176,
+          -32.87835790193066
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Park": "Tuxford Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66516126141104,
+          -32.88437408593623
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Park": "Bernborough Avenue Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76526559642545,
+          -32.91763248398143
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Park": "Coe Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Baby",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65418411094717,
+          -32.80020633897631
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "BERESFIELD",
+        "Park": "Vera Wilson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65240607370868,
+          -32.884935424691896
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "FLETCHER",
+        "Park": "Oak Close Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74891002484466,
+          -32.94790457680885
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Park": "Gibbs Brothers Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7182672858626,
+          -32.912483649310886
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "LAMBTON",
+        "Park": "Johnson Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72218765593334,
+          -32.890927293223164
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARABROOK",
+        "Park": "Casuarina Circuit Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71209407490826,
+          -32.92742295751532
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Park": "Regent Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71137603443364,
+          -32.89966999589373
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH WEST",
+        "Park": "Thomas Percy Oval",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64463743504677,
+          -32.77522136647894
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Parkview Terrace Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61135800595852,
+          -32.776278228677846
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ASHTONFIELD",
+        "Park": "Butterfield Close Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60074211657937,
+          -32.74080059826003
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Goodhugh Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.555046552723,
+          -32.74027985040417
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Park": "Maitland All-Abilities Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60417255627402,
+          -32.90542252905413
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Northlakes Drive Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5791899150475,
+          -32.751515116817586
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Stockdale Hill Heritage Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60330172314937,
+          -32.74401505966191
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Park": "Lena O'Brien Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57792890496742,
+          -32.91540088078024
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "HOLMESVILLE",
+        "Park": "George Street Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6008274430567,
+          -32.738470313592394
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Eckford Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72722621024226,
+          -32.667820564127744
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SEAHAM",
+        "Park": "Seaham Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55802150794105,
+          -32.72912795853324
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "LORN",
+        "Park": "Ron Bown Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52496124801914,
+          -32.760102445224696
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "GILLIESTON HEIGHTS",
+        "Park": "Gillieston Heights Reserve/Roy Jordan Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5862016898449,
+          -32.930881215877385
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BARNSLEY",
+        "Park": "Taylor Park Complex Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61338307990007,
+          -32.77275934358625
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "METFORD",
+        "Park": "Mcleod Avenue Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58363007639284,
+          -32.905289232899385
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WEST WALLSEND",
+        "Park": "Gregory Park Complex Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6552966959861,
+          -32.71952086397016
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "HINTON",
+        "Park": "Stuart Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61339909775992,
+          -32.74493392877864
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Park": "Tom Lantry Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60136184812424,
+          -32.70050439476471
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "LARGS",
+        "Park": "Largs Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5856744551299,
+          -32.91580752578612
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "HOLMESVILLE",
+        "Park": "Seaham Street Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58643251914367,
+          -32.75635950597338
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Rous Street Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63427528020955,
+          -32.88076930570342
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "FLETCHER",
+        "Park": "Kingfisher Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6070210718191,
+          -32.916417994287286
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Pasterfield Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56283037560817,
+          -32.736582045533474
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Park": "Maitland Lions Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66930040718609,
+          -32.79051132827442
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "WOODBERRY",
+        "Park": "Bristol Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7730942173955,
+          -32.76015282122684
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Lakeside Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.610230435224,
+          -32.73750759621219
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Park": "Stace Crescent Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74023506780782,
+          -32.760986333881405
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Riverside Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56064747395934,
+          -32.72344639841443
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "LORN",
+        "Park": "Lorn Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60843733593316,
+          -32.769451455926955
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "METFORD",
+        "Park": "Wattle Close Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60021111073684,
+          -32.74647308197879
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Centennial Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76205150967883,
+          -32.75306227634142
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Gwen Parade Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74103040292272,
+          -32.76911523777421
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Bettles Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52332351684828,
+          -32.71241848340377
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Park": "Paul Harris Memorial Grove",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61643292227348,
+          -32.74055689245658
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Park": "Thursy Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52553326464937,
+          -32.71532703050101
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Park": "Rutherford Youth Space",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63719142362424,
+          -32.72635714851747
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MORPETH",
+        "Park": "Morpeth Common (Ray Lawler Reserve)",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76342683127714,
+          -32.74489644991467
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Dawson Road Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.44747544801655,
+          -32.70049965201131
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "LOCHINVAR",
+        "Park": "Porter Place",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5277472875329,
+          -32.76149840631242
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "GILLIESTON HEIGHTS",
+        "Park": "Judd Greedy Park/Wood Street Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5587077246984,
+          -32.935629585213164
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "KILLINGWORTH",
+        "Park": "Park Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52875959902656,
+          -32.7259625725696
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Park": "Vi Denny-Bowtell Netball Courts",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6263113846358,
+          -32.72472495129327
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MORPETH",
+        "Park": "Illalung Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53110710078153,
+          -32.71836545317126
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Park": "Melbee Street Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64154431453804,
+          -32.778541037244224
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Thornton Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61982901847642,
+          -32.91940457008407
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Country Grove Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61271214168914,
+          -32.92169709906749
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "EDGEWORTH",
+        "Park": "Durham Drive Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59184923813604,
+          -32.75423594466787
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Cooney Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59040402491368,
+          -32.759353612053786
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Green Hills Gardens",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5357210735579,
+          -32.75758681492505
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "GILLIESTON HEIGHTS",
+        "Park": "Joseph Maxwell VC Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58970925799147,
+          -32.746518587874434
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Anzac Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62813225714035,
+          -32.92064204726658
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "EDGEWORTH",
+        "Park": "Pittman Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6106708908859,
+          -32.914848912687056
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Albatross Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62711754265325,
+          -32.72514689917829
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MORPETH",
+        "Park": "Noel and Daphne Unicomb Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66860027552502,
+          -32.79553461863513
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "WOODBERRY",
+        "Park": "Swallow Avenue Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7580611877969,
+          -32.755393994756666
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Geer Street Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64655676021144,
+          -32.69518081671118
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "WALLALONG",
+        "Park": "Bowthorne Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64780741990285,
+          -32.778113292434156
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Edwards Ave Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64624381501426,
+          -32.770945877157864
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Allan and Don Lawrence No. 1 Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60315786334652,
+          -32.73704303425838
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RAWORTH",
+        "Park": "Bakers Brickyard Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5914320910608,
+          -32.699849272537854
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "BOLWARRA HEIGHTS",
+        "Park": "Benshulla Drive Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58375181877508,
+          -32.70242186160817
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "BOLWARRA",
+        "Park": "Bolwarra Lookout Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57397153239185,
+          -32.70481818670853
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "BOLWARRA",
+        "Park": "Bolwarra Sporting Complex Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61478253384024,
+          -32.746057264349005
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Beryl Humble Sports Complex Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5883462271429,
+          -32.76503664705111
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Brooklyn Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61232621286666,
+          -32.76848377375733
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "METFORD",
+        "Park": "Casuarina Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47453326402461,
+          -32.697517054258235
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "WINDELLA",
+        "Park": "Cecily Reserve Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60665816591901,
+          -32.76617986829698
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "METFORD",
+        "Park": "Chelmsford Drive Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63056256380156,
+          -32.75173667755162
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "CHISHOLM",
+        "Park": "Dragonfly Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59355401147488,
+          -32.76515670271498
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Fern Place Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52258950073463,
+          -32.717002597386085
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Park": "Finney Close",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6635349639971,
+          -32.794473308607465
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "WOODBERRY",
+        "Park": "Fred Harvey Sports Complex Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5366972889468,
+          -32.691624723682224
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ABERGLASSLYN",
+        "Park": "Golden Whistler Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 169,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60217686892028,
+          -32.771919989895586
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ASHTONFIELD",
+        "Park": "Heron Close Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57549690947351,
+          -32.69979170214741
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "BOLWARRA HEIGHTS",
+        "Park": "Hunterglenn Drive Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59627010277072,
+          -32.772772422794766
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ASHTONFIELD",
+        "Park": "Leinster Circuit Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5720969505148,
+          -32.762367874625916
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Rathluba Lagoon Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58595241274347,
+          -32.7722615814412
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "MacGowan Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53394996233024,
+          -32.723043023273874
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TELARAH",
+        "Park": "McDonald Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5446611261301,
+          -32.69941264317049
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ABERGLASSLYN",
+        "Park": "McKeachies Sportsground Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6164154742957,
+          -32.73835807810271
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Park": "O'Hearn Street Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63694555473097,
+          -32.77651564182337
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Parkwood North Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5309809359931,
+          -32.704101758832365
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ABERGLASSLYN",
+        "Park": "Peppertree Circuit Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53890979906743,
+          -32.699045046567434
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ABERGLASSLYN",
+        "Park": "Spotted Gum Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53474697370146,
+          -32.725273749699625
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "TELARAH",
+        "Park": "Telarah Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53185378314066,
+          -32.76456157683465
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "GILLIESTON HEIGHTS",
+        "Park": "Victor Warby Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55372426765913,
+          -32.71471511003876
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "OAKHAMPTON HEIGHTS",
+        "Park": "Walka Water Works Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6327247170623,
+          -32.757703059553975
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "CHISHOLM",
+        "Park": "Whitewater Adventure Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6551093496387,
+          -32.768699251662525
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Wirraway Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58333104340446,
+          -32.76536592726417
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Park": "Worcester Drive Park/Ashton Grove",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7812526305676,
+          -32.91819532601482
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Park": "Griffith Park/South Stockton Active Hub",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61614369529468,
+          -32.879901273868896
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "MINMI",
+        "Park": "Minmi Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75798822034125,
+          -32.930450491543134
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE WEST",
+        "Park": "National Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66615217503468,
+          -32.91952489823842
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "ELERMORE VALE",
+        "Park": "Willow Close Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48229141485558,
+          -33.176487629072724
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WYEE",
+        "Park": "Wyee Community Hall Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5234312203592,
+          -33.141320142082094
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WYEE POINT",
+        "Park": "Government Road Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5361028674351,
+          -33.12012740675884
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET PARK",
+        "Park": "Irene Austin Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.54634809486,
+          -33.115595383766426
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BRIGHTWATERS",
+        "Park": "Hall Street Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56393061599852,
+          -33.1089203134672
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SUNSHINE",
+        "Park": "Sunshine Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.54916724627512,
+          -33.0917198056355
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BALCOLYN",
+        "Park": "Shingle Splitters Point Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5317422204672,
+          -33.109560824669934
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BONNELLS BAY",
+        "Park": "Bonnells Bay Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5222175577828,
+          -33.10753593049025
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BONNELLS BAY",
+        "Park": "Pendlebury Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4855990862919,
+          -33.11092416304985
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET",
+        "Park": "Macquarie Street Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48591287410883,
+          -33.10646176254651
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET",
+        "Park": "Bernie Goodwin Oval Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.50718526659938,
+          -33.08426492081884
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DORA CREEK",
+        "Park": "Douglass Street Oval Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4424217130776,
+          -33.08247502571666
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "COORANBONG",
+        "Park": "Cedar Cutters Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.44908258167055,
+          -33.07808043741636
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "COORANBONG",
+        "Park": "Cooranbong Reserve Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60342496481982,
+          -33.135577547558256
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "NORDS WHARF",
+        "Park": "Baxter Park Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6288791973159,
+          -33.14835978851882
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CATHERINE HILL BAY",
+        "Park": "Roy McDougall Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62122598498155,
+          -33.121288855174036
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MURRAYS BEACH",
+        "Park": "Karakai Park Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64489671668557,
+          -33.10940864981572
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAVES BEACH",
+        "Park": "Caves Beach Road Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6324750905162,
+          -33.09715016959952
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA",
+        "Park": "Richards Road Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63855416341863,
+          -33.105666132286586
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAVES BEACH",
+        "Park": "Silky Oak Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66205883974578,
+          -33.08826890128009
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA HEADS",
+        "Park": "Reids Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65607100603182,
+          -33.08084656418026
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BLACKSMITHS",
+        "Park": "Ungala Road Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63661527294707,
+          -33.07895439056714
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA",
+        "Park": "Chapman Oval Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65169409326901,
+          -33.0745399388596
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BLACKSMITHS",
+        "Park": "Dobinson Reserve Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64290500168204,
+          -33.07180856145291
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "PELICAN",
+        "Park": "Pelican Foreshore Park Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64902259703882,
+          -33.05838029083431
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MARKS POINT",
+        "Park": "Baxter Field Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65455324756206,
+          -33.04878700439544
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT SOUTH",
+        "Park": "Belmont South Foreshore Park Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65762962437225,
+          -33.03603582614315
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Park": "Belmont Lions Park Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6524138665938,
+          -33.02969343038468
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Park": "Laughlin Park Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6283952488212,
+          -33.01123070244872
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "VALENTINE",
+        "Park": "Bennett Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 219,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6347263270087,
+          -33.00973918295359
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "VALENTINE",
+        "Park": "Allambee Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64656581522954,
+          -33.01448313309349
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "VALENTINE",
+        "Park": "Excalibur Parade Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64906820809904,
+          -33.02016951440677
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Park": "Spinnaker Ridge Reserve Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66487775400572,
+          -33.01752875849141
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "FLORAVILLE",
+        "Park": "Marks Oval Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67516207880672,
+          -33.01483468657065
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Park": "Somerset Street Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6781168821179,
+          -33.02007062883844
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Park": "Luskin Way Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68181087224553,
+          -33.01228384128651
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "JEWELLS",
+        "Park": "Jewells Parade Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71076438143817,
+          -33.00807924917261
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "REDHEAD",
+        "Park": "Redhead Winderhouse Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7136365729809,
+          -33.01061334215729
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "REDHEAD",
+        "Park": "Bicentennial Park Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71586767553296,
+          -33.013163919385406
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "REDHEAD",
+        "Park": "Webb Park Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66805170492378,
+          -32.99945574825207
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TINGIRA HEIGHTS",
+        "Park": "St John Memorial Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6412537445779,
+          -33.00015928400084
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ELEEBANA",
+        "Park": "Thomas H Halton Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63844705459238,
+          -32.989406437081215
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ELEEBANA",
+        "Park": "Eleebana Oval Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64290653959782,
+          -32.98585857243968
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ELEEBANA",
+        "Park": "Bunya Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65029493217972,
+          -32.9844515845412
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Park": "Richard Allen Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68119308106174,
+          -32.988968533160374
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WINDALE",
+        "Park": "Bahloo Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.725352354204,
+          -32.991912640671586
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DUDLEY",
+        "Park": "Reay Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71953476111776,
+          -32.98992278633009
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DUDLEY",
+        "Park": "Frank Watkins Memorial Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 237,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70810440789813,
+          -32.97730157328544
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WHITEBRIDGE",
+        "Park": "Harold Wesley Knight Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71666790736447,
+          -32.97428544658983
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WHITEBRIDGE",
+        "Park": "Heywood Wilkinson Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68343865187975,
+          -32.97782442514241
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GATESHEAD",
+        "Park": "Sylvia Grozdanovski Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 240,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67751227730417,
+          -32.97909427801202
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MOUNT HUTTON",
+        "Park": "Kestrel Avenue Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 241,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66863978612616,
+          -32.9788803824512
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MOUNT HUTTON",
+        "Park": "Mullington Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 242,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6587801201128,
+          -32.97797780263213
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Park": "Butler Crescent Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 243,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65403474896317,
+          -32.97355526321489
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Park": "Chartley Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 244,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6435825362221,
+          -32.97307005430098
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Park": "Warner Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66215345120983,
+          -32.9701872650337
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Park": "Vermont Place Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 246,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67724788784466,
+          -32.96797853963014
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Park": "Tallowood Circuit Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6496020607028,
+          -32.965606770431116
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "LAKELANDS",
+        "Park": "Ambleside Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68675802117767,
+          -32.96006467344834
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Park": "Hooper Street Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6984013838158,
+          -32.96559031373633
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Park": "Attunga Park Public Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71158484243156,
+          -32.96289469062595
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "KAHIBAH",
+        "Park": "Kahibah Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71604028142485,
+          -32.95701834304531
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "HIGHFIELDS",
+        "Park": "Highfields Parade Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 252,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70870296884667,
+          -32.95307737704821
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ADAMSTOWN HEIGHTS",
+        "Park": "Russell Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69175376178012,
+          -32.95150498590735
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "KOTARA SOUTH",
+        "Park": "Carramar Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66066647081837,
+          -32.95742749141622
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF SOUTH",
+        "Park": "Gertrude Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6657149389347,
+          -32.95595125355166
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF SOUTH",
+        "Park": "Ulinga Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67451415633164,
+          -32.9546921107996
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "HILLSBOROUGH",
+        "Park": "Percy Street Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67863457582627,
+          -32.94807450239114
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GARDEN SUBURB",
+        "Park": "Forest Hills Reserve",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66233518757835,
+          -32.94420188123818
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Park": "Wilkinson Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66268649712643,
+          -32.93810583183708
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Park": "Fern Valley Road Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67534685237916,
+          -32.93335220161595
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "NEW LAMBTON HEIGHTS",
+        "Park": "Walkern Road Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65423262176918,
+          -32.92955150967558
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GLENDALE",
+        "Park": "Clarence Street Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6525744449424,
+          -32.93558765559612
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Park": "Cedar Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63132317903074,
+          -32.9361221229007
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ARGENTON",
+        "Park": "Argenton Hall Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6445064849329,
+          -32.947939843470664
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MACQUARIE HILLS",
+        "Park": "Neegulbah Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64891706475586,
+          -32.95533945081933
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MACQUARIE HILLS",
+        "Park": "Cardale Road Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61750785981718,
+          -32.96107469792838
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SPEERS POINT",
+        "Park": "Lake Macquarie Variety Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 267,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6076650327238,
+          -32.96205234712358
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TERALBA",
+        "Park": "Tulkaba Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61170176067498,
+          -32.971984568886064
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BOORAGUL",
+        "Park": "Edwards Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62079790451097,
+          -32.976532707413206
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MARMONG POINT",
+        "Park": "James Brady Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61412407592346,
+          -32.98597293730008
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MARMONG POINT",
+        "Park": "Defender Close Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60728586821537,
+          -33.00142332872255
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BOLTON POINT",
+        "Park": "Bolton Point Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59789952362695,
+          -32.99872106655424
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Park": "Toronto Lions Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59886627975592,
+          -33.014681920002154
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Park": "Toronto Bay Foreshore Playground",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5930447161161,
+          -33.02594188811932
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "KILABEN BAY",
+        "Park": "Kilaben Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5972736817415,
+          -33.04118224316844
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "RATHMINES",
+        "Park": "Rathmines Recreation Area",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5894801992721,
+          -33.04968515288833
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "FISHING POINT",
+        "Park": "Alkrington Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58692499175208,
+          -33.06159860300972
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ARCADIA VALE",
+        "Park": "Arcadia Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57996106931162,
+          -33.06676067700938
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Park": "Wangi Wangi Foreshore Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58803630298,
+          -33.07121357292834
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Park": "Dobell Memorial Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61045418489996,
+          -33.07460399815435
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Park": "Wangi Holiday Park Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5497511323452,
+          -33.062020519116345
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MYUNA BAY",
+        "Park": "Myuna Bay Rest Area",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53975876180814,
+          -33.01470882437094
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "AWABA",
+        "Park": "Robert 'Dutchy' Holland Oval",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57415710276996,
+          -33.0124266987866
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Park": "Forest Lake Estate Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5753183908703,
+          -33.00478824213696
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Park": "Keith Barry Oval",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58997962034928,
+          -32.998515057711536
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BLACKALLS PARK",
+        "Park": "Blackalls Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61079610076513,
+          -32.90950502415849
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Cameron Park Community Centre Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6060329070403,
+          -32.89941065852878
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Park": "Beaumarias Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 288,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.96370026265134,
+          -32.65625712557315
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "KARUAH",
+        "Park": "Aliceton Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 289,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.13213365977154,
+          -32.71985454325297
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Park": "Dutchmans Beach Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 290,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.17029246888688,
+          -32.743067883203686
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "FINGAL BAY",
+        "Park": "Barry Park",
+        "Fenced": "Yes",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.17128553846717,
+          -32.73023988073109
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SHOAL BAY",
+        "Park": "Bernie Thompson Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08099569678376,
+          -32.722209641559566
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SALAMANDER BAY",
+        "Park": "Bob Cairns Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74719744963758,
+          -32.76554603949322
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Park": "Boomerang Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0118171122868,
+          -32.72575844275191
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MALLABULA",
+        "Park": "Caswell Reserve",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.11755084603033,
+          -32.718178670948056
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "CORLETTE",
+        "Park": "Corlette Point Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7957575352208,
+          -32.87205522205111
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "FERN BAY",
+        "Park": "Fern Bay Reserve Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.16209186094756,
+          -32.74352983271121
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "FINGAL BAY",
+        "Park": "George Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0398774589318,
+          -32.73042044032396
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "LEMON TREE PASSAGE",
+        "Park": "Henderson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1575612248801,
+          -32.71382395613802
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Park": "Little Beach Reserve",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.05568262824636,
+          -32.7369743755979
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "TAYLORS BEACH",
+        "Park": "Taylors Beach Foreshore Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99396612243916,
+          -32.72555138780922
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "TANILBA BAY",
+        "Park": "Tanilba Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0644133257466,
+          -32.70179684237159
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SOLDIERS POINT",
+        "Park": "Spencer Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.07867297236098,
+          -32.78455288948082
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "ANNA BAY",
+        "Park": "Robinson Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06330081077627,
+          -32.7069271291113
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SOLDIERS POINT",
+        "Park": "Pearson Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9962644998228,
+          -32.72718025308581
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "TANILBA BAY",
+        "Park": "Peace Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.14795853453018,
+          -32.718452844709816
+        ]
+      },
+      "properties": {
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Park": "Nelson Bay Foreshore Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63955688988827,
+          -32.92880668348736
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "Glendale",
+        "Park": "Bill Bower Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68087229177544,
+          -32.92641310953464
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "RANKIN PARK",
+        "Park": "Elbrook Drive Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6569711475909,
+          -33.00901380293533
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "Valentine",
+        "Park": "Gatts Farm Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62757559810822,
+          -32.92697320238544
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "Edgeworth",
+        "Park": "Turnbull Street Reserve Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53746962359716,
+          -32.72731076968914
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "Lorn",
+        "Park": "Coronation Oval Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62088863345636,
+          -32.88473202323751
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "Minmi",
+        "Park": "Blue Gum Hills Regional Park Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76737888492792,
+          -32.92526458888813
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "Honeysuckle",
+        "Park": "Honeysuckle Foreshore Playground",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53758427378025,
+          -32.69351539220395
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "ABERGLASSLYN",
+        "Park": "Golden Whistler Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6030095407133,
+          -32.97336190615549
+        ]
+      },
+      "properties": {
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TERALBA",
+        "Park": "Pitt Street Playground/Billy's Lookout",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6539456414769,
+          -32.77904002632537
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Park": "Somerset Drive Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.42816239614504,
+          -32.806846938479744
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "ABERMAIN",
+        "Park": "Abermain Centenary Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.39502154296906,
+          -32.88151198468381
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "ABERNETHY",
+        "Park": "Abernethy Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34925150338583,
+          -32.67995596615412
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "NORTH ROTHBURY",
+        "Park": "Ayrfield Miners Memorial Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32309725331461,
+          -32.857043248955684
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "BELLBIRD",
+        "Park": "Bellbird Community Hall Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.49132668794957,
+          -32.81177105108126
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Park": "Birralee Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.49078045656125,
+          -32.81754547307912
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Park": "Booth Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36090686302458,
+          -32.831683980311865
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Bridges Hill Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36362221231195,
+          -32.655788312071614
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "EAST BRANXTON",
+        "Park": "Brunner Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34542294922184,
+          -32.830333338205286
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Buckland Avenue Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.31661694968713,
+          -32.85693886534422
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "BELLBIRD",
+        "Park": "Carmichael Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51584264450446,
+          -32.785274430780724
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CLIFTLEIGH",
+        "Park": "Cliftleigh Meadows District Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26710473254778,
+          -32.89044254510471
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "MILLFIELD",
+        "Park": "Crawfordville Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3131388714347,
+          -32.91509565938487
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "ELLALONG",
+        "Park": "Ellalong Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46197263254817,
+          -32.819300424527206
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WESTON",
+        "Park": "Ernie Dunlop Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.39325817611748,
+          -32.85470321264427
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "KEARSLEY",
+        "Park": "George Jeffery Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34316507058614,
+          -32.83474886483013
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Hall Park/Stephen Street Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 333,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43986107254676,
+          -32.81146162688821
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Park": "Harle Street Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51469561266762,
+          -32.80324129746078
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "HEDDON GRETA",
+        "Park": "Hedleigh Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43023376745975,
+          -32.81101832205744
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "ABERMAIN",
+        "Park": "Jeffries Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48205288250324,
+          -32.82600014344768
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "PELAW MAIN",
+        "Park": "Log of Knowledge Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 337,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3344493920191,
+          -32.83947102925002
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Macquarie Avenue Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3449780936117,
+          -32.83995635871583
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Margaret Street Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 339,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4517710156354,
+          -32.81484816922096
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WESTON",
+        "Park": "Maybury Peace Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 340,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35893993433632,
+          -32.845599564674934
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "McFarlane Street Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "Yes",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 341,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46404834452238,
+          -32.80680225168243
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WESTON",
+        "Park": "Meredith Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 342,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3581247213008,
+          -32.656908107659525
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "EAST BRANXTON",
+        "Park": "Miller Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 343,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48364771013618,
+          -32.90306487202114
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "MULBRING",
+        "Park": "Mulbring Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 344,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.38934643795832,
+          -32.67732014824404
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "GRETA",
+        "Park": "Norman Brown Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35319124832063,
+          -32.82404597410592
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "North End Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 346,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3479067397785,
+          -32.80955221427283
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "NULKABA",
+        "Park": "Nulkaba Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 347,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34235138558498,
+          -32.84326642966447
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "O'Brien Street Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 348,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.454057249593,
+          -32.807746603473674
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WESTON",
+        "Park": "O'Toole Street Playground",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2833343800886,
+          -32.90098140003004
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "PAXTON",
+        "Park": "Mcdonald Street Playground",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 350,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36585491745845,
+          -32.878529951243806
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "KITCHENER",
+        "Park": "Poppethead Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 351,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32957535517136,
+          -32.82669958933861
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Shiraz Grove Cessnock",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.13932960441306,
+          -32.937657325234674
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WOLLOMBI",
+        "Park": "Slacks Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 353,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.49328506916785,
+          -32.82682228684257
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "STANFORD MERTHYR",
+        "Park": "Stanford Merthyr Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Toddler",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 354,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.37256695319158,
+          -32.841945609843954
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Park": "Veterans Memorial Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 355,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.38394590391238,
+          -32.67207938297754
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "GRETA",
+        "Park": "Whitburn Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.39706977008882,
+          -32.669480655688304
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "GRETA",
+        "Park": "Wyndham Ridge Park",
+        "Fenced": "No",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.45996662984,
+          -32.811467983958245
+        ]
+      },
+      "properties": {
+        "LGA": "CESSNOCK",
+        "Suburb": "WESTON",
+        "Park": "Bluey Frame Park",
+        "Fenced": "Yes",
+        "Toilets": "No",
+        "Inclusive": "No",
+        "Age": "Big Kid",
+        "Cafes": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56522335637106,
+          -32.73998576864156
+        ]
+      },
+      "properties": {
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Park": "Harold Gregson Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "Yes",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 359,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7305004823163,
+          -32.93426932187437
+        ]
+      },
+      "properties": {
+        "LGA": "NEWCASTLE",
+        "Suburb": "Adamstown",
+        "Park": "Adamstown Park",
+        "Fenced": "No",
+        "Toilets": "Yes",
+        "Inclusive": "No",
+        "Age": "All Ages",
+        "Cafes": "Yes"
+      }
+    }
+  ]
+}

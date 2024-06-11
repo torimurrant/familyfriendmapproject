@@ -1,0 +1,1337 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6296245573549,
+          -32.93565874684522
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ARGENTON",
+        "Name": "Argenton Hotel",
+        "URL": "https://argentonhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58346829160678,
+          -32.74580300197079
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Name": "The Bank Hotel",
+        "URL": "https://www.thebankmaitland.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6515890254151,
+          -33.03106201793022
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "Belmont 16s",
+        "URL": "https://16s.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66095408801615,
+          -33.035833679680785
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "The Belmont Hotel",
+        "URL": "https://www.belmonthotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70767847529942,
+          -32.934615581660466
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "Blackbutt Hotel",
+        "URL": "http://www.blackbutthotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51734016482914,
+          -32.71049301450113
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "The Bradford Hotel",
+        "URL": "https://www.thebradford.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65734602983028,
+          -32.94194866633178
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Name": "Cardiff RSL",
+        "URL": "https://cardiffrsl.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64791361873577,
+          -33.104753788220755
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAVES BEACH",
+        "Name": "Caves Coastal Bar",
+        "URL": "https://www.cavescoastal.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69285700254343,
+          -32.96688981717139
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "Club Charlestown",
+        "URL": "https://clubcharlestown.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6239392187364,
+          -32.94144748155708
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ARGENTON",
+        "Name": "Club Macquarie",
+        "URL": "https://clubmacquarie.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52859564930068,
+          -32.718089509083626
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "Club Maitland City",
+        "URL": "https://www.maitlandcity.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7142880438014,
+          -33.01112648858872
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "REDHEAD",
+        "Name": "Club Redhead",
+        "URL": "https://www.redheadbc.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.50937368570064,
+          -32.710881400460174
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "Dullboys Rutherford",
+        "URL": "https://rutherford.dullboys.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65595167382946,
+          -32.96679485731224
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Dullsboys Warners Bay",
+        "URL": "https://warnersbay.dullboys.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5831182594631,
+          -32.74713635102034
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Name": "East Maitland Bowling Club",
+        "URL": "https://www.embc.com.au/Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62236362223712,
+          -32.92345150742205
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "EDGEWORTH",
+        "Name": "Edgeworth Tavern",
+        "URL": "https://edgeworthtavern.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73400651164877,
+          -32.899095339154144
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Hanbury 58 Food Collective",
+        "URL": "https://www.hanbury58.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68919297033224,
+          -32.83884252309028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HEXHAM",
+        "Name": "Hexham Bowling Club",
+        "URL": "https://hexhambowlingclub.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67519351714674,
+          -32.916589476504605
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ELERMORE VALE",
+        "Name": "Hotel Elermore",
+        "URL": "https://www.hotelelermore.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68452413654316,
+          -33.012551473489296
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "JEWELLS",
+        "Name": "Jewells Tavern",
+        "URL": "https://www.jewellstavern.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70697462012146,
+          -32.96494771264246
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "KAHIBAH",
+        "Name": "Kahibah Sports Club",
+        "URL": "https://kahibahsports.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77513193692135,
+          -32.76084750403236
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Lakeside Tavern",
+        "URL": "https://www.lakesidevillagetavern.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76720131314914,
+          -32.9338559497245
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Lowlands Bowling Club",
+        "URL": "https://lowlands.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6593156867021,
+          -32.87962051355074
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Name": "Maryland Tavern",
+        "URL": "https://marylandtavern.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6961792707048,
+          -32.9606498293916
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "The Mattara",
+        "URL": "https://www.mattara.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86091338212876,
+          -32.740990729488786
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MEDOWIE",
+        "Name": "Medowie Social",
+        "URL": "https://medowiesocial.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7562978982004,
+          -32.941300996049435
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "MODUS Merewether",
+        "URL": "https://www.mobrewing.com.au/merewether-brewery/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86794678835818,
+          -32.76714188302339
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MEDOWIE",
+        "Name": "Greenhouse Eatery",
+        "URL": "https://greenhouseeatery.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75430904253437,
+          -32.938953645509905
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "The Prince of Merewether",
+        "URL": "https://www.theprinceofmerewether.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6198858351215,
+          -32.73854067652429
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "LGA": "MAITLAND",
+        "Suburb": "TENAMBIT",
+        "Name": "The Regal Inn",
+        "URL": "https://www.theregalinn.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7424169956829,
+          -32.8921974431103
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Wests Mayfield",
+        "URL": "https://mywests.com.au/casual-eats/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71995185339577,
+          -32.98995802491804
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DUDLEY",
+        "Name": "Royal Crown Hotel",
+        "URL": "https://www.royalcrownhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6439334999188,
+          -32.93424558748181
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GLENDALE",
+        "Name": "Rudys Rotisserie",
+        "URL": "https://rudysrotisserie.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69589456045526,
+          -32.88716085942247
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Name": "Shortland Hotel",
+        "URL": "https://www.shortlandhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73244747828667,
+          -32.914229432916585
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BROADMEADOW",
+        "Name": "The Sunnyside Tavern",
+        "URL": "https://www.facebook.com/sunnysidetavern"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74771355602286,
+          -32.918279858526006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Name": "Sydney Junction Hotel",
+        "URL": "https://www.sjh.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59167031618935,
+          -33.01034366337691
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Toronto Workers Club",
+        "URL": "https://www.torontoworkers.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6706587641003,
+          -32.90167946666043
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Name": "Wallsend Diggers",
+        "URL": "https://www.wallsenddiggers.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65656282825998,
+          -32.96667408172378
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Warners at the Bay",
+        "URL": "https://warnersatthebay.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76595326216534,
+          -32.91561746002315
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Name": "Young Street Hotel",
+        "URL": "https://www.youngstreethotel.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73116843542562,
+          -32.93479376889816
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Adamstown Bowling Club",
+        "URL": "https://adamstownbowlo.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7641100755092,
+          -32.92734450427597
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE WEST",
+        "Name": "Antojitos",
+        "URL": "https://www.antojitos.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74942911902656,
+          -32.92465892277156
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Name": "The Greenroof",
+        "URL": "https://thegreenroof.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77168136059134,
+          -32.93158116615605
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Beach Burrito",
+        "URL": "https://www.beachburritocompany.com/menu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7883060072441,
+          -32.92775273738298
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE EAST",
+        "Name": "Scottie's",
+        "URL": "https://www.scottiesne.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76427679923262,
+          -32.94226183300065
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BAR BEACH",
+        "Name": "Bar Beach Bowling Club",
+        "URL": "https://www.barbeachbowlo.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71453895224334,
+          -32.93195761114718
+        ]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "Norma's @ Alder Park Bowling Club",
+        "URL": "https://www.alderparksportsclub.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59355029424626,
+          -32.915029008433734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WEST WALLSEND",
+        "Name": "Harrigan's",
+        "URL": "https://www.harriganscameronpark.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76505817722298,
+          -32.91454648641744
+        ]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Name": "Franky's Lan Zhou Noodles",
+        "URL": "https://www.facebook.com/Frankysnoodle/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75196301671141,
+          -32.91172034924574
+        ]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYVILLE",
+        "Name": "Maryville Tavern",
+        "URL": "https://www.maryvilletavern.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01972107945136,
+          -32.767416163742595
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "BOBS FARM",
+        "Name": "Valhalla Restaurant",
+        "URL": "https://www.valhallarestaurantbar.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7566473338628,
+          -32.948484483687125
+        ]
+      },
+      "properties": {
+        "OBJECTID": 88,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "Merewether Surfhouse",
+        "URL": "https://www.surfhouse.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71536091072832,
+          -32.92068866446226
+        ]
+      },
+      "properties": {
+        "OBJECTID": 91,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "Wests New Lambton",
+        "URL": "https://mywests.com.au/clubs/wests-new-lambton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.14468914659633,
+          -32.72539383779706
+        ]
+      },
+      "properties": {
+        "OBJECTID": 92,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Name": "Nelson Bay Golf Club",
+        "URL": "https://www.nelsonbaygolf.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10585685074952,
+          -32.737893831898134
+        ]
+      },
+      "properties": {
+        "OBJECTID": 94,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SALAMANDER BAY",
+        "Name": "The Salamander Hotel",
+        "URL": "https://www.salamanderhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.07025280897972,
+          -32.71011044543361
+        ]
+      },
+      "properties": {
+        "OBJECTID": 95,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "SOLDIERS POINT",
+        "Name": "Soldiers Point Bowling Club",
+        "URL": "https://www.soldierspointbc.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.16178259075818,
+          -32.74363982897131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "FINGAL BAY",
+        "Name": "Fingal Bay Sports Club",
+        "URL": "https://fingalbaysportsclub.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48746669095408,
+          -32.825072688142036
+        ]
+      },
+      "properties": {
+        "OBJECTID": 97,
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Name": "Kurri Kurri Bowling Club",
+        "URL": "https://kkbc.club/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.41687194295443,
+          -32.824402655674724
+        ]
+      },
+      "properties": {
+        "OBJECTID": 98,
+        "LGA": "CESSNOCK",
+        "Suburb": "NEATH",
+        "Name": "Neath Hotel",
+        "URL": "https://www.theneath.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3557982464117,
+          -32.839096429783346
+        ]
+      },
+      "properties": {
+        "OBJECTID": 99,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Pedens Hotel",
+        "URL": "https://pedenshotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34642334995317,
+          -32.83622063358732
+        ]
+      },
+      "properties": {
+        "OBJECTID": 100,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Australia Hotel",
+        "URL": "https://www.australiahotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36127890479105,
+          -32.83053483920751
+        ]
+      },
+      "properties": {
+        "OBJECTID": 101,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "East Cessnock Bowling Club",
+        "URL": "https://ecbc.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35324261848012,
+          -32.83401668531968
+        ]
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "LGA": "CESSNOCKJ",
+        "Suburb": "CESSNOCK",
+        "Name": "Cessnock Leagues Club",
+        "URL": "https://www.cessnockleagues.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74122952618353,
+          -32.761713895082465
+        ]
+      },
+      "properties": {
+        "OBJECTID": 103,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Spinning Wheel Hotel",
+        "URL": "https://www.spinningwheelhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74154495252756,
+          -32.760636564619105
+        ]
+      },
+      "properties": {
+        "OBJECTID": 104,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Junction Inn Hotel",
+        "URL": "https://www.junctioninnhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.15648964344228,
+          -32.716718209059536
+        ]
+      },
+      "properties": {
+        "OBJECTID": 105,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Name": "Wests Nelson Bay",
+        "URL": "https://mywests.com.au/clubs/wests-nelson-bay-diggers"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77936626998056,
+          -32.92697242650546
+        ]
+      },
+      "properties": {
+        "OBJECTID": 107,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Oh My Papa",
+        "URL": "https://www.ohmypapa.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64456379654973,
+          -33.0688358482949
+        ]
+      },
+      "properties": {
+        "OBJECTID": 108,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "PELICAN",
+        "Name": "Pelican RSL",
+        "URL": "https://pelicanrsl.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59735102848413,
+          -33.01351727995613
+        ]
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Greg and Audrey's",
+        "URL": "https://www.gregandaudreys.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4874733762164,
+          -33.10825687450969
+        ]
+      },
+      "properties": {
+        "OBJECTID": 111,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORRISET",
+        "Name": "Lake Macquarie Hotel",
+        "URL": "https://www.lmhotel.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5887944226893,
+          -33.06871302099474
+        ]
+      },
+      "properties": {
+        "OBJECTID": 112,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Name": "Wangi RSL",
+        "URL": "https://www.wangirsl.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78517691280143,
+          -32.9265621501818
+        ]
+      },
+      "properties": {
+        "OBJECTID": 113,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE",
+        "Name": "Customs House",
+        "URL": "https://customshouse.net.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7871753049825,
+          -32.92746297204871
+        ]
+      },
+      "properties": {
+        "OBJECTID": 114,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE EAST",
+        "Name": "The Grain Store",
+        "URL": "https://www.grainstore.beer/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77183792886058,
+          -32.93087075138474
+        ]
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "Vietking",
+        "URL": "https://linktr.ee/vietking.newcastle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7056690374336,
+          -32.88895298034315
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CALLAGHAN",
+        "Name": "The Forum Gym and Aquatic Centre",
+        "Price": "$6.00 per person",
+        "Casual": "1",
+        "Play": "No",
+        "Lessons": "Yes",
+        "Website": "https://www.theforum.org.au/pool-availability/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71245485898757,
+          -32.91557024817937
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": "NEWCASTLE",
+        "Suburb": "LAMBTON",
+        "Name": "Lambton Swim Centre",
+        "Price": "$5.80 per adult; $4.80 per child; <3 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "Yes",
+        "Website": "https://newcastlepools.com.au/lambton/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6987333301779,
+          -32.96716647057317
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "Charlestown Swim Centre",
+        "Price": "$6.60 per person; <5 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "Yes",
+        "Website": "https://swim.lakemac.com.au/Our-pools/Charlestown-Swim-Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66934853173254,
+          -32.894730442561986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WALLSEND",
+        "Name": "Wallsend Swim Centre",
+        "Price": "$5.40 per adult; $4.40 per child; <3 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "Yes",
+        "Website": "https://newcastlepools.com.au/wallsend/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78852025004946,
+          -32.91627061594558
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Name": "Stockton Swim Centre",
+        "Price": "$5.40 per adult; $4.40 per child; <3 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "Yes",
+        "Website": "https://newcastlepools.com.au/stockton/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7459037256098,
+          -32.90147105859717
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Mayfield Swim Centre",
+        "Price": "$5.40 per adult; $4.40 per child; <3 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "Yes",
+        "Website": "https://newcastlepools.com.au/mayfield/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6491564523044,
+          -32.803075704472015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BERESFIELD",
+        "Name": "Beresfield Swim Centre",
+        "Price": "$3.15 per person; <3 years free",
+        "Casual": "1",
+        "Play": "Yes",
+        "Lessons": "No",
+        "Website": "https://newcastle.nsw.gov.au/explore/recreation/swimming-centres"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65756093199914,
+          -32.967012622857716
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Coughlans Swim Centre",
+        "Price": "$6 per person",
+        "Casual": "1",
+        "Play": "No",
+        "Lessons": "Yes",
+        "Website": "https://www.coughlans.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69010126230592,
+          -32.99765607962783
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BENNETTS GREEN",
+        "Name": "East Lakes Swim Centre",
+        "Price": "$32 per class",
+        "Casual": "2",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.eastlakesswim.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58458868120894,
+          -32.90750091972627
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WEST WALLSEND",
+        "Name": "West Wallsend Swim Centre",
+        "Price": "$6.60 per adult; $4.10 per child; <3 years free",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://swim.lakemac.com.au/Our-pools/West-Wallsend-Swim-Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4832498328221,
+          -33.10574518778373
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET",
+        "Name": "Morisset Swim Centre",
+        "Price": "$6.60 per adult; $4.10 per child; <3 years free",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.lakemac.com.au/Venues/Morisset-Swim-Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57860766570795,
+          -33.008315992218314
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "First Splashes/Toronto Swim Centre",
+        "Price": "$6.60 per adult; $4.10 per child; <3 years free",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://firstsplashes.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63721138329151,
+          -33.08510951812798
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA",
+        "Name": "Swansea Swim Centre",
+        "Price": "$6.60 per adult; $4.10 per child; <3 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://swim.lakemac.com.au/Our-pools/Swansea-Swim-Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61995631873535,
+          -32.9627152802241
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SPEERS POINT",
+        "Name": "Speers Point Swim Centre",
+        "Price": "$6.60 per adult; $4.10 per child; <3 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://swim.lakemac.com.au/Our-pools/Speers-Point-Swim-Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65217026774326,
+          -32.9473668804067
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CARDIFF",
+        "Name": "JUMP! Swim School",
+        "Price": "$20.50 - $65 per lesson",
+        "Casual": "2",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://jumpswimschools.com.au/cardiff/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76029077129775,
+          -32.935476820294525
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "NEWCASTLE",
+        "Suburb": "THE JUNCTION",
+        "Name": "Arnolds Swim Centre",
+        "Price": "TBC",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.arnoldsswimcentre.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6416723972295,
+          -33.00503598159105
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CROUDACE BAY",
+        "Name": "Valentine Swim School",
+        "Price": "$4.00 per person",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.valentineswimschool.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65990862509523,
+          -32.962782388923664
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Aqua Stars",
+        "Price": "$12 - $50 per lesson",
+        "Casual": "2",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://aquastars.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.11475204594802,
+          -32.737749944190206
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "NELSON BAY",
+        "Name": "Tomaree Aquatic Centre",
+        "Price": "$6.50 per adult; $4.80 per child; <3 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://www.tomareeac.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01496437964767,
+          -32.73305292795167
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MALLABULA",
+        "Name": "Tilligerry Aquatic Centre",
+        "Price": "$6.50 per adult; $4.80 per child; <3 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://www.tilligerryac.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78296623793898,
+          -32.759126339495005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "RAYMOND TERRACE",
+        "Name": "Lakeside Aquatic Centre",
+        "Price": "$6.50 per adult; $4.80 per child; <3 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://www.lakesidelc.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0693214033538,
+          -32.74989839473844
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "TAYLORS BEACH",
+        "Name": "Nelson Bay Swimming and Wellness Academy",
+        "Price": "TBC",
+        "Casual": "2",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.facebook.com/nelsonbayswimschool"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55568887240568,
+          -32.74051628508442
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Name": "Maitland Aquatic Centre",
+        "Price": "$6.30 per adult; $5.20 per child; <4 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://www.maitland.nsw.gov.au/facilities/maitland-aquatic-centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.596396056455,
+          -32.74357477720857
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": "MAITLAND",
+        "Suburb": "EAST MAITLAND",
+        "Name": "East Maitland Aquatic Centre",
+        "Price": "$6.30 per adult; $5.20 per child; <4 years free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "1",
+        "Website": "https://www.maitland.nsw.gov.au/facilities/east-maitland-aquatic-centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36166820319414,
+          -32.65803860595285
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": "CESSNOCK",
+        "Suburb": "BRANXTON",
+        "Name": "Branxton Pool",
+        "Price": "$5 per person, <3yo free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "3",
+        "Website": "https://www.cessnock.nsw.gov.au/Things-to-do/Public-swimming-pools"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35529689844824,
+          -32.83153494836996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Cessnock Pool",
+        "Price": "$5 per person, <3yo free",
+        "Casual": "1",
+        "Play": "1",
+        "Lessons": "3",
+        "Website": "https://www.cessnock.nsw.gov.au/Things-to-do/Public-swimming-pools"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46871203006657,
+          -32.81676210495504
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Name": "Kurri Kurri Aquatic and Fitness Centre",
+        "Price": "$5 per person, <3yo free",
+        "Casual": "1",
+        "Play": "2",
+        "Lessons": "1",
+        "Website": "https://www.kurrikurriafc.com.au/"
+      }
+    }
+  ]
+}

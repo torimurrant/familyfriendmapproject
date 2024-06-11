@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76468397843394,
+          -32.91531584086763
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Name": "Carrington Community Garden",
+        "URL": "https://carringtoncommunitygarden.wordpress.com/contact-us/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73881898066193,
+          -32.935485899974154
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON SOUTH",
+        "Name": "Hamilton South Community Garden",
+        "URL": "https://newcastle.nsw.gov.au/explore/parks/community-gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77900710353808,
+          -32.91028301325369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Name": "Stockton Community Garden",
+        "URL": "https://www.facebook.com/groups/859795690808621/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7209721255814,
+          -32.9397675692278
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Adamstown Community Garden",
+        "URL": "https://www.facebook.com/groups/TheLanewayPark/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69958134158955,
+          -32.93850916370619
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Name": "March Street Allotment Gardens",
+        "URL": "https://mscgardens.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75538934200537,
+          -32.941560253516414
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MEREWETHER",
+        "Name": "Merewether Community Garden",
+        "URL": "https://www.facebook.com/Merewethercommunitygarden/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78885518530214,
+          -32.925906755927656
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEWCASTLE EAST",
+        "Name": "Sandhill Community Garden",
+        "URL": "https://newcastle.nsw.gov.au/explore/parks/community-gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.741940863683,
+          -32.905258006782944
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MAYFIELD",
+        "Name": "Silsoe Street Community Garden",
+        "URL": "https://newcastle.nsw.gov.au/explore/parks/community-gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71876989886363,
+          -32.989703689573645
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DUDLEY",
+        "Name": "Dudley Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Dudley-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62146513624938,
+          -32.92343800005213
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "EDGEWORTH",
+        "Name": "Edgeworth Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Edgeworth-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6690472278601,
+          -33.02003574067495
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Name": "Habitat in Harmony Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Habitat-in-Harmony-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68492101928098,
+          -33.017197303961915
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Name": "Harrison Street Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Harrison-Street-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57923727348978,
+          -32.91601100742822
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "HOLMESVILLE",
+        "Name": "Holmesville Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Holmesville-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60651896830672,
+          -32.968124973285455
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BOORAGUL",
+        "Name": "umali barai-ku, Landcare and Sustainable Living Centre",
+        "URL": "https://www.lakemac.com.au/Venues/Landcare-and-Sustainable-Living-Centre-umali-barai-ku"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59108341975596,
+          -33.012658511317
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Toronto Community Hub Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Toronto-Community-Hub-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.643547461265,
+          -32.985986421424805
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "ELEEBANA",
+        "Name": "Warners Bay Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Warners-Bay-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48127111747502,
+          -33.11137453613932
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MORISSET",
+        "Name": "Yunung Community Garden",
+        "URL": "https://www.lakemac.com.au/Venues/Yunung-Community-Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53147079531993,
+          -32.76434085638237
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "MAITLAND",
+        "Suburb": "GILLIESTON HEIGHTS",
+        "Name": "Gillieston Heights Community Garden",
+        "URL": "https://www.facebook.com/ourgardenhive/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52979140739725,
+          -32.720586908288226
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "Fiacre's Feast Community Garden",
+        "URL": "https://communitygarden.org.au/listing/fiacre-feast-free-community-garden/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7307877744573,
+          -32.9034066471999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH",
+        "Name": "Hunter Multicultural Centre Community Garden",
+        "URL": "https://huntermulticultural.org.au/community-garden/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75459342556206,
+          -32.90447379882642
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": "NEWCASTLE",
+        "Suburb": "TIGHES HILL",
+        "Name": "Tighes Hill Community Garden",
+        "URL": "https://www.facebook.com/TighesHillCommunityGarden/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75460038224193,
+          -32.918354986100184
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WICKHAM",
+        "Name": "Smovka Community Garden",
+        "URL": "https://www.facebook.com/smokvacommunitygarden/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06801542367987,
+          -32.7605630659783
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "ANNA BAY",
+        "Name": "Salvation Army Sensory Community Garden",
+        "URL": "https://www.salvationarmy.org.au/portstephens/community-garden/"
+      }
+    }
+  ]
+}

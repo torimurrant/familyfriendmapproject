@@ -1,0 +1,1031 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71781245086794,
+          -32.9412164953338
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ADAMSTOWN",
+        "Name": "Mainly Music Adamstown",
+        "Cost": "$5 per session",
+        "URL": "https://www.facebook.com/adamstownmainlymusic/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71371333402192,
+          -32.92630458511675
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "Mainly Music New Lambton",
+        "Cost": "$5 per session",
+        "URL": "https://www.anew.org.au/mainly-music/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69644976062335,
+          -32.94768968001362
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Name": "Mainly Music Kotara",
+        "Cost": "$5 per session",
+        "URL": "https://www.newcastleanglican.org.au/parish/kotara/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7462388457198,
+          -32.92094892355919
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": "NEWCASTLE",
+        "Suburb": "HAMILTON",
+        "Name": "Mainly Music Hamilton",
+        "Cost": "$5 per session",
+        "URL": "https://www.facebook.com/p/Newcastle-Mainly-Music-100064541565552/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78044820629862,
+          -32.92904353729674
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": "NEWCASTLE",
+        "Suburb": "THE HILL",
+        "Name": "Mainly Music Newcastle",
+        "Cost": "$5 per session",
+        "URL": "http://www.newcastlecathedral.org.au/mainly-music-at-newcastle-cathedral/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78489535743518,
+          -32.91794346692962
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": "NEWCASTLE",
+        "Suburb": "STOCKTON",
+        "Name": "Mainly Music Stockton",
+        "Cost": "$5 per session",
+        "URL": "https://stocktonanglican.org.au/mainly-music/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66608944567835,
+          -33.02125751798708
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Name": "Mainly Music Belmont North",
+        "Cost": "$5 per session",
+        "URL": "https://www.salvationarmy.org.au/eastlakes/for-kids-and-youth/mainly-music/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66257684606785,
+          -33.0367705034756
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "Mainly Music Belmont",
+        "Cost": "$5 per session",
+        "URL": "https://elm-anglican.au/community-and-service/groups/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58724352806368,
+          -33.01283239351083
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "TORONTO",
+        "Name": "Mainly Music Toronto",
+        "Cost": "$5 per session",
+        "URL": "https://www.torontobaptist.org.au/mainlymusic.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63849491952567,
+          -33.09931508024325
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAVES BEACH",
+        "Name": "Mainly Music Caves Beach",
+        "Cost": "$5 per session",
+        "URL": "https://www.swanseabaptistchurch.org.au/portfolio-items/mainly-music/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67308316613517,
+          -33.025679256947875
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Name": "Belmont Christian College Community Playgroup",
+        "Cost": "TBC",
+        "URL": "https://bcc.nsw.edu.au/community-playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6691444650427,
+          -33.019899717973466
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT NORTH",
+        "Name": "Bugalugs Playgroup",
+        "Cost": "$3 per session",
+        "URL": "https://www.bnc.asn.au/programs/bugalugs-playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61092401547168,
+          -32.90983743644974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CAMERON PARK",
+        "Name": "Cameron Park Mini Munchkins",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/groups/148572135215294/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65556538747754,
+          -32.95189969059204
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "MACQUARIE HILLS",
+        "Name": "Macquarie Care Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/macquariecareplaygroup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7653148366794,
+          -32.91221072443802
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": "NEWCASTLE",
+        "Suburb": "CARRINGTON",
+        "Name": "KU Carrington Playground",
+        "Cost": "TBC",
+        "URL": "https://www.ku.com.au/childcare/centres/newcastlesp-carringtonps"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69742644493292,
+          -32.96557617914016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "Charlie's Angels Playground",
+        "Cost": "TBC",
+        "URL": "https://charliesangelsplaygroup.weebly.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69441507830146,
+          -32.961694074255895
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "CHARLESTOWN",
+        "Name": "Charlestown Little Lights Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/littlelightsplaygroup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76849106572502,
+          -32.93400614118317
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": "NEWCASTLE",
+        "Suburb": "COOKS HILL",
+        "Name": "St John's Playgroup",
+        "Cost": "$5 per session",
+        "URL": "https://saintjohns.com.au/playgroup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6217311651579,
+          -32.9234669238416
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "EDGEWORTH",
+        "Name": "Edgeworth Community Playgroup",
+        "Cost": "Gold coin donation appreciated",
+        "URL": "https://www.facebook.com/edgeplaygroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68303663423052,
+          -32.94737185951788
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GARDEN SUBURB",
+        "Name": "Garden Suburb Jumping Jellybeans",
+        "Cost": "TBC",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/GardenSuburbJumpingJellybeans"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64284816976553,
+          -32.928328496702406
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GLENDALE",
+        "Name": "Gecko Playground",
+        "Cost": "$3 per session",
+        "URL": "https://gecn.org/programs/gecko-playgroup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65569265899032,
+          -32.92344121472661
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "GLENDALE",
+        "Name": "Garden Elves Steiner Playgroup",
+        "Cost": "$39 per annum registration + $20 per term",
+        "URL": "https://www.facebook.com/groups/1115690888491707"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74719069340836,
+          -32.91413572413999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": "NEWCASTLE",
+        "Suburb": "ISLINGTON",
+        "Name": "Islington Baptist Church Playtime",
+        "Cost": "$3 per session OR $20 per term",
+        "URL": "https://islingtonbaptist.org.au/playtime?fbclid=IwAR2YrAoMFOPiKEQlrZqLZ1aELfkA5QQpy6JkcI_XYp6IRL8INHe8fiYZKG8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68860593027722,
+          -32.90130228948335
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": "NEWCASTLE",
+        "Suburb": "JESMOND",
+        "Name": "KU Jesmond Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.ku.com.au/childcare/centres/newcastlesp-jesmondnc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7014330874069,
+          -32.94757361467581
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": "NEWCASTLE",
+        "Suburb": "KOTARA",
+        "Name": "St James Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/StJamesKotaraSouth"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65716645301174,
+          -32.80134700999117
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": "NEWCASTLE",
+        "Suburb": "BERESFIELD",
+        "Name": "Beresfield Samaritans Playgroup",
+        "Cost": "Gold coin donation",
+        "URL": "https://www.samaritans.org.au/uploads/files/CAPS-Supported-Playgroups-Hunter.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60214479636963,
+          -32.70231293023233
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "LGA": "MAITLAND",
+        "Suburb": "LARGS",
+        "Name": "Largs/Bolwarra Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/LargsBolwarra"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5592762370007,
+          -32.735144564988296
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "LGA": "MAITLAND",
+        "Suburb": "MAITLAND",
+        "Name": "Early Links Playgroup",
+        "Cost": "TBC",
+        "URL": "https://earlylinks.org.au/groups/playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65770295744218,
+          -32.8736248732008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "LGA": "NEWCASTLE",
+        "Suburb": "MARYLAND",
+        "Name": "Maryland Building Tots Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/MarylandBuildingTotsEarlyChildhoodDevelopment"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8667007190579,
+          -32.74166760216531
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MEDOWIE",
+        "Name": "Medowie Tigers",
+        "Cost": "$4 per session OR $25 per term",
+        "URL": "https://www.facebook.com/groups/medowietigersplaygroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6120383019198,
+          -32.771606833135856
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "LGA": "MAITLAND",
+        "Suburb": "METFORD",
+        "Name": "Metford Playgroup",
+        "Cost": "Gold coin donation",
+        "URL": "https://www.facebook.com/metfordcommunityplaygroup"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69532076516083,
+          -32.88174110570731
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "LGA": "NEWCASTLE",
+        "Suburb": "SHORTLAND",
+        "Name": "KU Newcastle Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.ku.com.au/childcare/centres/newcastlesp-shortlandps"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7156123671427,
+          -32.89889226361133
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "LGA": "NEWCASTLE",
+        "Suburb": "WARATAH WEST",
+        "Name": "KU Waratah West Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.ku.com.au/childcare/centres/newcastlesp-waratahwestps"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6783068641224,
+          -32.99230735921189
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WINDALE",
+        "Name": "Windale Samaritans Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.samaritans.org.au/uploads/files/CAPS-Supported-Playgroups-Hunter.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60621302015306,
+          -32.98187299305508
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WOODRISING",
+        "Name": "Woodrising Samaritans Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.samaritans.org.au/uploads/files/CAPS-Supported-Playgroups-Hunter.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71321055055068,
+          -32.92458466855842
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "LGA": "NEWCASTLE",
+        "Suburb": "NEW LAMBTON",
+        "Name": "New Lambton Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/newlambton.playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63546103572338,
+          -33.00951759428609
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "VALENTINE",
+        "Name": "Valentine Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/groups/1717498695158578"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5830509738517,
+          -33.0726388545523
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WANGI WANGI",
+        "Name": "Perry's Playgroup Wangi",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/groups/883200805941727"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6403079209917,
+          -32.777644672647924
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Name": "Thornton Little Rascals",
+        "Cost": "$5 per session",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/ThorntonLittleRascals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6395175346957,
+          -32.7794176327208
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "LGA": "MAITLAND",
+        "Suburb": "THORNTON",
+        "Name": "Play Strong Thornton",
+        "Cost": "TBC",
+        "URL": "https://www.playgroupnsw.org.au/Playgroup/Playgroups/playstrongthornton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63740695551206,
+          -33.091771749009716
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "SWANSEA",
+        "Name": "Swansea Cottage Supported Playgroup",
+        "Cost": "$2 per session",
+        "URL": "http://www.swanseacommunitycottage.com.au/the-cottage-supported-playgroup.php"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52825705989704,
+          -32.71674979697413
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "LGA": "MAITLAND",
+        "Suburb": "RUTHERFORD",
+        "Name": "Play Strong Rutherford",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/p/Playstrong-Rutherford-100069835973884/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71531163813498,
+          -32.98379749071072
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "DUDLEY",
+        "Name": "Whitebridge Kindymates Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/whitebridgeplaygroupkindymates/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64881831744827,
+          -32.974377664301684
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "WARNERS BAY",
+        "Name": "Warners Bay Baptist Church Playtime",
+        "Cost": "TBC",
+        "URL": "http://warnersbaybaptist.org.au/playtime.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62067370793133,
+          -32.718937070732146
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "LGA": "MAITLAND",
+        "Suburb": "PHOENIX PARK",
+        "Name": "Phoenix Park Farm PLay",
+        "Cost": "Free",
+        "URL": "https://www.phoenixparkfarm.com.au/farm-play"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4931978732965,
+          -32.65139845249361
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "LGA": "MAITLAND",
+        "Suburb": "GOSFORTH",
+        "Name": "Acacia Play (The Farm)",
+        "Cost": "$25 per session",
+        "URL": "https://www.acaciaplay.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65649392927432,
+          -33.023759073419605
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "LGA": "LAKE MACQUARIE",
+        "Suburb": "BELMONT",
+        "Name": "Acacia Play (The Paddock)",
+        "Cost": "$25 per session",
+        "URL": "https://www.acaciaplay.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86997555976552,
+          -32.73292174343677
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "LGA": "PORT STEPHENS",
+        "Suburb": "MEDOWIE",
+        "Name": "Medowie Nature Play",
+        "Cost": "$15 per session",
+        "URL": "https://medowienatureplay.square.site/faqs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25345082711604,
+          -32.888682454163636
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "LGA": "CESSNOCK",
+        "Suburb": "MILLFIELD",
+        "Name": "Playgroup @ Millfield",
+        "Cost": "Free",
+        "URL": "https://www.cmcc.nsw.edu.au/playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35226683068925,
+          -32.832259278594776
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Playgroup @ Cessnock",
+        "Cost": "Free",
+        "URL": "https://www.cmcc.nsw.edu.au/playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3399658159232,
+          -32.84085554803974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "LGA": "CESSNOCK",
+        "Suburb": "CESSNOCK",
+        "Name": "Cessnock Toy Library/Playgroup",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/cessnocktoylibraryplaygroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36375272584465,
+          -32.84031510176021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "LGA": "CESSNOCK",
+        "Suburb": "ABERDARE",
+        "Name": "Koe-Nara",
+        "Cost": "TBC",
+        "URL": "https://www.facebook.com/KoeNaraCessnock/?ref=br_rs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47178897820527,
+          -32.813773120430916
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Name": "Play Strong Kurri Kurri",
+        "Cost": "Free",
+        "URL": "https://www.hunterprelude.org.au/flyers/kurri-kurri-playgroup/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48342438177,
+          -32.817452965118065
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "LGA": "CESSNOCK",
+        "Suburb": "KURRI KURRI",
+        "Name": "CAPS Supported Playgroup - Kurri Kurri",
+        "Cost": "Free",
+        "URL": "https://www.samaritans.org.au/uploads/files/CAPS-Supported-Playgroups-Hunter.pdf"
+      }
+    }
+  ]
+}

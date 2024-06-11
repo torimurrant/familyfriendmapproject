@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58123475192545,
+          -32.90300333918502
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Name": "The Creative Co",
+        "Type": "Sensory",
+        "Cost": "$12 - $27 per class",
+        "URL": "https://www.thecreativecobyjessie.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69838136216472,
+          -32.96630326227571
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Name": "Hive Creative Studios",
+        "Type": "Education",
+        "Cost": "$25 - $49 per class",
+        "URL": "https://hivekids.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7043415753787,
+          -33.01225888040874
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Name": "Nourish Play",
+        "Type": "Sensory",
+        "Cost": "$5 - $13 per class",
+        "URL": "https://www.nourishservices.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65409095744883,
+          -32.80101132389097
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Name": "Little Explorers at Home",
+        "Type": "Sensory",
+        "Cost": "$21 - $30 per class",
+        "URL": "https://www.littleexplorersathome.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59269433362945,
+          -32.756601548837374
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "Name": "Nature and Nurture Art Studio",
+        "Type": "Art",
+        "Cost": "$20 - $23 per class",
+        "URL": "https://natureandnurturensw.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71796241562146,
+          -32.88663890542532
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Name": "Baby Sensory Newcastle",
+        "Type": "Sensory",
+        "Cost": "$176 per term",
+        "URL": "https://www.babysensory.com.au/newcastle-nsw/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6485235891867,
+          -32.974315510352156
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Name": "Baby Sensory Newcastle",
+        "Type": "Sensory",
+        "Cost": "$176 per term",
+        "URL": "https://www.babysensory.com.au/newcastle-nsw/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.56186888540344,
+          -32.73653932435765
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "Name": "PCYC Maitland",
+        "Type": "Gymnastics",
+        "Cost": "$165 per term",
+        "URL": "https://www.pcycnsw.org.au/maitland/activities/kindergym"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73248251078616,
+          -32.92195161984618
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "Name": "PCYC Newcastle",
+        "Type": "Gymnastics",
+        "Cost": "$175 per term",
+        "URL": "https://www.pcycnsw.org.au/newcastle/activities/gymnastics"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65987342101758,
+          -32.98588854410093
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "Name": "Gymbaroo Warners Bay",
+        "Type": "Gymnastics",
+        "Cost": "TBC",
+        "URL": "https://www.gymbaroo.com.au/articles/location/warners-bay-gymbaroo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55349045595358,
+          -32.73658641384193
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "Name": "Gymbaroo Maitland",
+        "Type": "Gymnastics",
+        "Cost": "TBC",
+        "URL": "https://www.gymbaroo.com.au/articles/location/maitland-gymbaroo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7146722658248,
+          -32.92896135321131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "Name": "Gymbaroo Newcastle",
+        "Type": "Gymnastics",
+        "Cost": "TBC",
+        "URL": "https://www.gymbaroo.com.au/articles/location/newcastle-gymbaroo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.667201118029,
+          -32.89316530102292
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "Name": "Key Word Sign Language",
+        "Type": "Education",
+        "Cost": "$30-$35 per class",
+        "URL": "https://www.facebook.com/KaseyWoodhamSpeechPathologist"
+      }
+    }
+  ]
+}
