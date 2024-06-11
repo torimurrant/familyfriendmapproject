@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Friendly Map Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <style>
+        header {
+            background-color: #F8F9FA;
+            height: 50px;
+            padding: 5px 10px;
+            border-bottom: 2px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 100%;
+            width: auto;
+            margin-right: auto;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        map {
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 10px;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .leaflet-popup-content h3 {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://github.com/torimurrant/familyfriendlymapproject/blob/main/icons/icon.png?raw=true">
+        <nav>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+        </nav>
+    </header>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
