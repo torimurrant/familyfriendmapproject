@@ -37,11 +37,26 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
             });
           },
           onEachFeature: (feature, layer) => {
-            let cafeIconUrl = feature.properties.Cafes === 'Yes' 
-              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/b4327a00ac6c62be481d3f0f35d37a0604f4a8a7/icons/cafe_true.svg'
+            let cafeIcon = feature.properties.Cafes === 'Yes' 
+              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
               : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/b4327a00ac6c62be481d3f0f35d37a0604f4a8a7/icons/cafe_null.svg';
             
-            layer.bindPopup(`<h3>${feature.properties.Park}</h3><p><img src="${cafeIconUrl}" alt="Cafe icon" style="width:32px;height:32px;"></p>`);
+            let fenceIcon = feature.properties.Cafes === 'Yes' 
+              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_null.svg';
+
+            let toiletIcon = feature.properties.Cafes === 'Yes' 
+              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
+            
+            layer.bindPopup(`
+            <h3>${feature.properties.Park}</h3>
+            <p>
+              <img src="${cafeIcon}" alt="Cafe icon" style="width:60px;height:60px;">
+              <img src="${fenceIcon}" alt="Cafe icon" style="width:60px;height:60px;">
+              <img src="${toiletIcon}" alt="Cafe icon" style="width:60px;height:60px;">
+            </p>
+            `);
           }
         }).addTo(map);
     })
