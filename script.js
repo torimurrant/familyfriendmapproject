@@ -39,11 +39,11 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
           onEachFeature: (feature, layer) => {
             let cafeIcon = feature.properties.Cafes === 'Yes' 
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
-              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/b4327a00ac6c62be481d3f0f35d37a0604f4a8a7/icons/cafe_null.svg';
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
             
             let fenceIcon = feature.properties.Cafes === 'Yes' 
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
-              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_null.svg';
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
 
             let toiletIcon = feature.properties.Cafes === 'Yes' 
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
@@ -52,9 +52,9 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
             layer.bindPopup(`
             <h3>${feature.properties.Park}</h3>
             <p>
-              <img src="${cafeIcon}" alt="Cafe icon" style="width:60px;height:60px;">
-              <img src="${fenceIcon}" alt="Cafe icon" style="width:60px;height:60px;">
-              <img src="${toiletIcon}" alt="Cafe icon" style="width:60px;height:60px;">
+              <img src="${cafeIcon}" alt="Cafe icon" style="width:40px;height:40px;">
+              <img src="${fenceIcon}" alt="Cafe icon" style="width:40px;height:40px;">
+              <img src="${toiletIcon}" alt="Cafe icon" style="width:40px;height:40px;">
             </p>
             `);
           }
