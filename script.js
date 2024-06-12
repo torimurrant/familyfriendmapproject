@@ -37,7 +37,11 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
             });
           },
           onEachFeature: (feature, layer) => {
-            layer.bindPopup(`<h3>${feature.properties.Park}</h3><p>INSERT ICONS HERE :)</p>`);
+            let cafeIconUrl = feature.properties.Cafes === 'Yes' 
+              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/b4327a00ac6c62be481d3f0f35d37a0604f4a8a7/icons/cafe_true.svg'
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/b4327a00ac6c62be481d3f0f35d37a0604f4a8a7/icons/cafe_null.svg';
+            
+            layer.bindPopup(`<h3>${feature.properties.Park}</h3><p><img src="${cafeIconUrl}" alt="Cafe icon" style="width:32px;height:32px;"></p>`);
           }
         }).addTo(map);
     })
