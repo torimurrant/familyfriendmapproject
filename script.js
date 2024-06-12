@@ -41,20 +41,25 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
               : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
             
-            let fenceIcon = feature.properties.Cafes === 'Yes' 
+            let fenceIcon = feature.properties.Fenced === 'Yes' 
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
               : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
 
-            let toiletIcon = feature.properties.Cafes === 'Yes' 
+            let toiletIcon = feature.properties.Toilets === 'Yes' 
               ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
               : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
+            
+            let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
+              ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
+              : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
             
             layer.bindPopup(`
             <h3>${feature.properties.Park}</h3>
             <p>
-              <img src="${cafeIcon}" alt="Cafe icon" style="width:40px;height:40px;">
-              <img src="${fenceIcon}" alt="Cafe icon" style="width:40px;height:40px;">
-              <img src="${toiletIcon}" alt="Cafe icon" style="width:40px;height:40px;">
+              <img src="${cafeIcon}" style="width:40px;height:40px;">
+              <img src="${fenceIcon}" style="width:40px;height:40px;">
+              <img src="${toiletIcon}" style="width:40px;height:40px;">
+              <img src="${inclusiveIcon}" style="width:40px;height:40px;">
             </p>
             `);
           }
