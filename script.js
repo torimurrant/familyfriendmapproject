@@ -22,14 +22,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 // add playgrounds geojson
 // Fetch GeoJSON data
-fetch('https://raw.githubusercontent.com/torimurrant/familyfriendlymapproject/main/layers/playgrounds.geojson')
+fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
     .then(response => response.json())
     .then(data => {
         L.geoJSON(data, {
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
               icon: L.icon({
-                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendlymapproject/main/icons/playground.svg',
+                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
                 iconSize: [32, 32],
                 iconAnchor: [16, 16],
                 popupAnchor: [0, -16]
