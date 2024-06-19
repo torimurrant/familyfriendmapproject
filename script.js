@@ -1,14 +1,25 @@
 // initialise map
 var map = L.map('map', {
-  zoomControl: false // Disable the default zoom control to re-position it later
+  zoomControl: false // disable default zoom control
 }).setView([-32.928, 151.750], 12.8);
 
-// custom zoom controls
+// move zoom control to bottom right
 L.control.zoom({
   position: 'bottomright' // Move zoom control to bottom right
 }).addTo(map);
 
-// base map
+//collapsible sidebar
+function openNav() {
+  document.getElementById("side-panel").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("side-panel").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+// define base map
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
                '© <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -19,9 +30,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q' // Replace this with your actual Mapbox access token
 }).addTo(map);
 
-
-// add playgrounds geojson
-// Fetch GeoJSON data
+// fetch geojson data - playgrounds
 fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
     .then(response => response.json())
     .then(data => {
@@ -65,6 +74,3 @@ fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main
           }
         }).addTo(map);
     })
-    .catch(error => {
-        console.error('Error fetching Playground layer:', error);
-    });
