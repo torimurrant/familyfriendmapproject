@@ -1,4 +1,4 @@
-        // initialise map
+// initialise map
 var map = L.map('map', {
   zoomControl: false // Disable the default zoom control to re-position it later
 }).setView([-32.928, 151.750], 12.8);
