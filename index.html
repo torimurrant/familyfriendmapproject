@@ -6,6 +6,8 @@
     <title>Family Friendly Map Project</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
@@ -94,6 +96,8 @@
             font-weight: bold;
             font-family: 'Raleway', sans-serif;
             margin: 0;
+            display: flex;
+            align-items: center;
         }
 
         #map {
@@ -261,6 +265,26 @@
             height: 25px;
             cursor: pointer;
         }
+
+        .google-maps-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .marker-cluster-custom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 2px #999;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
     </style>
 </head>
 
@@ -347,16 +371,15 @@
             <button class="close-button" onclick="closePopup('contact-popup')">&times;</button>
             <h1>contact</h1>
             <p>
-                If you have a suggestion for a place to be added or updated, feedback about the project, or just want to say hi, you can contact me via the methods below.
-                <br>
-                <a href="https://www.linkedin.com/in/vmurrant/"><img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/linkedin.png?raw=true" style="width:32px;height:32px;"></a>
-                <a href="https://www.facebook.com/profile.php?id=61559873597015"><img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/facebook.png?raw=true" style="width:32px;height:32px;"></a>
+                If you have a suggestion for a place to be added or updated, feedback about the project, or just want to say hi, 
+                you can contact me via <a href="https://www.linkedin.com/in/vmurrant/">LinkedIn</a> or <a href="torithew95@gmail.com">email</a>.
             </p>
         </div>
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     <script>
         // initialise map
         var map = L.map('map', {
@@ -370,14 +393,75 @@
 
         // base map
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q', {
-        attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, ' +
-                    '<a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
+        attribution: '<a href="https://www.openstreetmap.org/copyright" target=”_blank>OpenStreetMap</a>, ' +
+                    '<a href="https://www.mapbox.com/" target=”_blank>Mapbox</a>',
+        maxZoom: 20,
         id: 'tmurrant/clvlz3ce8019i01q190ig5dvt',
         tileSize: 512,
         zoomOffset: -1,
         accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q' // replace this with your Mapbox access token
         }).addTo(map);
+
+        // create icon cluster colour function
+        function createClusterIcon(color) {
+            return function(cluster) {
+                return L.divIcon({
+                        html: `<div style="background-color:${color}; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; font-family: 'Roboto', sans-serif;" class="marker-cluster">${cluster.getChildCount()}</div>`,
+                        className: 'marker-cluster-custom',
+                        iconSize: L.point(30, 30)
+                    });
+                }
+            }
+
+        // create marker cluster groups
+        var playgroundCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#FF8593'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var playgroupCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#FFA3A3'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var classesCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#B19CD9'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var communityGardenCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#64BE53'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var poolCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#00B7FF'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var libraryCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#9370DB'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var cafeCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#FFD700'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+        var restaurantCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#FFA500'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
 
         // add playgrounds geojson
         // fetch data
@@ -415,18 +499,26 @@
                     //add data to layer pop-ups
                     layer.bindPopup(
                     `
-                        <h3>${feature.properties.Park}</h3>
+                        <h3>
+                            <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Park}
+                            </a>
+                        </h3>
                         <div class="pill-button-1">Playground</div>
                     <br>
                         <img src="${cafeIcon}" style="width:24px;height:24px;">
                         <img src="${fenceIcon}" style="width:24px;height:24px;">
                         <img src="${toiletIcon}" style="width:24px;height:24px;">
                         <img src="${inclusiveIcon}" style="width:24px;height:24px;">
+                    <br>
+                        
                     `
                     );
                 }
-                }).addTo(map);
+                }).addTo(playgroundCluster);
             });
+            map.addLayer(playgroundCluster);
 
         // add playgroups geojson
         // fetch data
@@ -443,15 +535,21 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-2">Playgroup</div>
                             <br>
-                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}">here</a> 
+                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}" target=”_blank>here</a> 
                             for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(playgroupCluster);
             })
+            map.addLayer(playgroupCluster);
 
         // add classes geojson
         // fetch data
@@ -468,15 +566,21 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-3">Class</div>
                             <br>
-                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}">here</a> 
+                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}" target=”_blank>here</a> 
                             for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(classesCluster);
             })
+            map.addLayer(classesCluster);
 
         // add community gardens geojson
         // fetch data
@@ -493,14 +597,20 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-4">Community Garden</div>
                             <br>
-                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                            Click <a href="${feature.properties.URL}" target=”_blank>here</a> for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(communityGardenCluster);
             })
+            map.addLayer(communityGardenCluster);
 
         // add pools geojson
         // fetch data
@@ -517,14 +627,20 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-5">Pool</div>
                             <br>
-                            The cost is ${feature.properties.Price}. Click <a href="${feature.properties.Website}">here</a> for more information.`
+                            The cost is ${feature.properties.Price}. Click <a href="${feature.properties.Website}" target=”_blank>here</a> for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(poolCluster);
             })
+            map.addLayer(poolCluster);
 
         // add libraries geojson
         // fetch data
@@ -541,14 +657,20 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-6">Library</div>
                             <br>
-                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                            Click <a href="${feature.properties.URL}" target=”_blank>here</a> for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(libraryCluster);
             })
+            map.addLayer(libraryCluster);
 
         // add cafes geojson
         // fetch data
@@ -565,14 +687,20 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-7">Cafe</div>
                             <br>
-                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                            Click <a href="${feature.properties.URL}" target=”_blank>here</a> for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(cafeCluster);
             })
+            map.addLayer(cafeCluster);
 
         // add restaurants geojson
         // fetch data
@@ -589,14 +717,20 @@
                                 popupAnchor: [0, -16]
                             })
                         }).bindPopup(
-                            `<h3>${feature.properties.Name}</h3>
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
                             <div class="pill-button-7">Restaurant</div>
                             <br>
-                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                            Click <a href="${feature.properties.URL}" target="_blank">here</a> for more information.`
                         );
                     }
-                }).addTo(map);
+                }).addTo(restaurantCluster);
             })
+            map.addLayer(restaurantCluster);
 
         // page pop-ups
         document.getElementById('about-link').addEventListener('click', function() {
@@ -613,6 +747,11 @@
 
         function closePopup(popupId) {
             document.getElementById(popupId).style.display = 'none';
+        }
+
+        // open location in google maps
+        function openInGoogleMaps(lat, lng) {
+            window.open(`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`, '_blank');
         }
     </script>
 </body>
