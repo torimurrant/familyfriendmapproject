@@ -878,9 +878,9 @@
       "properties": {
         "OBJECTID": 79,
         "LGA": "NEWCASTLE",
-        "Suburb": "CARRINGTON",
-        "Name": "Franky's Lan Zhou Noodles",
-        "URL": "https://www.facebook.com/Frankysnoodle/"
+        "Suburb": "NEWCASTLE",
+        "Name": "Rascal",
+        "URL": "https://eatrascal.com.au/"
       }
     },
     {
@@ -889,8 +889,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.75196301671141,
-          -32.91172034924574
+          151.77377029203709,
+          -32.92757774028173
         ]
       },
       "properties": {
