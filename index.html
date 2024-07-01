@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
     <style>
         header {
             background-color: #F8F9FA;
             height: 50px;
             padding: 5px 10px;
-            border-bottom: 2px solid #ccc;
             display: flex;
+            box-shadow: rgba(0, 0, 0, 0.08),;
             align-items: center;
             justify-content: space-between;
         }
@@ -32,9 +33,33 @@
         }
 
         nav a {
-            margin-left: 10px;
             text-decoration: none;
-            color: #333;
+            margin-left: 10px;
+            display: inline-block;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 20px;
+            text-align: center;
+            transition: opacity 0.5s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        nav a:nth-child(1) {
+            background-color: #FFD700;
+        }
+
+        nav a:nth-child(2) {
+            background-color: #B19CD9;
+        }
+
+        nav a:nth-child(3) {
+            background-color: #40E0D0;
         }
 
         body {
@@ -46,12 +71,29 @@
             height: 100vh;
         }
 
+        p { 
+            line-height: 1.5em;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding-bottom: 2px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding-bottom: 2px;
+        }
+
         h3 {
             font-size: 13px;
             font-weight: bold;
             font-family: 'Raleway', sans-serif;
             margin: 0;
-            padding-bottom: 3px;
         }
 
         #map {
@@ -60,7 +102,7 @@
             height: 100vh;
         }
 
-        .pill-button {
+        .pill-button-1 {
             display: inline-block;
             background-color: #FF8593;
             color: white;
@@ -70,8 +112,106 @@
             padding: 5px 10px;
             border-radius: 20px;
             text-align: center;
-            margin-top: 3px;
-            margin-bottom: 3px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-2 {
+            display: inline-block;
+            background-color: #FFA3A3;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-3 {
+            display: inline-block;
+            background-color: #B19CD9;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-4 {
+            display: inline-block;
+            background-color: #64BE53;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-5 {
+            display: inline-block;
+            background-color: #00B7FF;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-6 {
+            display: inline-block;
+            background-color: #9370DB;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-7 {
+            display: inline-block;
+            background-color: #FFD700;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pill-button-8 {
+            display: inline-block;
+            background-color: #FFA500;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .leaflet-popup-content-wrapper {
@@ -82,92 +222,398 @@
             padding: 5px;
         }
 
+        .popup-page {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background-color: #F8F9FA;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        .popup-content h1 {
+            margin-top: 0;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: black;
+            border: none;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true">
+        <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon_v2.png?raw=true">
         <nav>
-           <a href="#">link</a>
-           <a href="#">link</a>
-           <a href="#">link</a>
+           <a href="#" id="about-link">info</a>
+           <a href="#" id="howto-link">how to</a>
+           <a href="#" id="contact-link">contact</a>
         </nav>
     </header>
     <div id="map"></div>
+
+    <!-- pop-up pages -->
+    <div id="about-popup" class="popup-page">
+        <div class="popup-content">
+            <button class="close-button" onclick="closePopup('about-popup')">&times;</button>
+            <h1>info</h1><br>
+                <p>
+                    <h2>about</h2>
+                    Hi, and thanks for visiting! I'm Tori Murrant. At home, I'm a mum; and at work, I'm a researcher and spatial analyst 
+                    (I work with the location of things). I'm the sole developer of this project.<br>
+                    Living in the city with no yard, I frequently visit the many playgrounds that the Hunter region has to offer. 
+                    While we have a handful of usual favourites, I wanted to explore new parks - but they need to meet certain criteria.
+                    I wanted to be able to search for parks based on the different facilities they have, but I couldn't find anything that 
+                    met my needs. So I made it!<br>
+                    I hope this website helps you find a fun new place to explore. A place with toilets and coffee nearby. 🙏
+                </p>
+                
+                <p>
+                    <h2>faq</h2>
+                    <b>How did you determine the age suitability for playgrounds?</b><br>
+                    There were a few variables that I considered when determining which ages a playground was suitable for.<br>
+                    • Babies: The playground has ground level play equipment for a child with limited physical mobility to engage with sensory 
+                    experiences or play equipment. Playgrounds with bark were considered not suitable for babies due to the likelihood of 
+                    a baby putting bark in their mouth.<br><br>
+                    • Toddlers: The playground has low-level play equipment for a new walker to engage with, and stairs or ramps to access 
+                    higher levels of play equipment. Essentially, I could imagine two toddlers playing independently and their parents feeling 
+                    safe.<br>
+                    • Big Kids: The playground has limited or difficult play equipment; leaving plenty of room for imaginative play, running around, 
+                    or testing their physical abilities. There is limited accessibility for younger children.<br>
+                    • All Ages: The playground has a variety of equipment that is accessible to all ages; such as stairs, ladders, swings, or 
+                    sensory experiences.<br><br>
+                    <b>How did you determine if a park was accessible?</b><br>
+                    Accessibility wasn't just about physical access- but play equipment and opportunity for kids and families with different 
+                    physical and mental abilities. Where a playground is deemed accessible, I felt that the play equipment was adequate for 
+                    kids with sensory needs, or it was *actually* accessible by kids with different physical requirements.<br><br>
+                    <b>How did you determine if a cafe/restaurant/bistro was kid-friendly?</b><br>
+                    There were three factors I assessed to determine whether a venue was kid-friendly:<br>
+                    • Does the venue have adequate space for a pram, crawling baby, or toddler to walk around?<br>
+                    • Does the venue have play equipment?<br>
+                    • What are the vibes of the venues patronage and staff towards children?<br>
+                    The venue had to fulfill two of these requirements for me to consider it kid-friendly. If you think there's a venue missing, please 
+                    contact me and I'll investigate it!<br><br>
+                    <b>Can you add pet-friendly playgrounds?</b><br>
+                    Unfortunately, no. Under the Companion Animals Act, pets are prohibited within 10 metres of children's play equipment - even if they 
+                    are leashed. While there will be parks that are pet-friendly that have playgrounds, I would not define any playground as pet-friendly.<br><br>
+                    <b>Do you have plans for the future of this project?</b><br>
+                    Yes! I want to add more features, such as walking trails, and expand the project to include features that make a suburb desirable 
+                    for families.<br>
+                </p>
+
+                <p>
+                    <h2>attribution</h2>
+                    friends: Jonathan Gray, Dan Bowles - thank you for helping me refine the UX/I 😊👏<br>
+                    icons: <a href="https://github.com/mapbox/maki">mapbox</a>, <a href="https://thenounproject.com/">the noun project</a><br>
+                    code: <a href="https://leafletjs.com/">leaflet</a>, <a href="https://www.mapbox.com/">Mapbox</a><br>
+                    data: <a href="https://www.openstreetmap.org/copyright">openstreetmap</a>, me
+                </p>
+        </div>
+    </div>
+
+    <div id="howto-popup" class="popup-page">
+        <div class="popup-content">
+            <button class="close-button" onclick="closePopup('howto-popup')">&times;</button>
+            <h1>how to</h1>
+            <p>How to content goes here...</p>
+        </div>
+    </div>
+
+    <div id="contact-popup" class="popup-page">
+        <div class="popup-content">
+            <button class="close-button" onclick="closePopup('contact-popup')">&times;</button>
+            <h1>contact</h1>
+            <p>
+                If you have a suggestion for a place to be added or updated, feedback about the project, or just want to say hi, you can contact me via the methods below.
+                <br>
+                <a href="https://www.linkedin.com/in/vmurrant/"><img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/linkedin.png?raw=true" style="width:32px;height:32px;"></a>
+                <a href="https://www.facebook.com/profile.php?id=61559873597015"><img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/facebook.png?raw=true" style="width:32px;height:32px;"></a>
+            </p>
+        </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
     <script>
-            // initialise map
-            var map = L.map('map', {
-            zoomControl: false // disable the default zoom control
-            }).setView([-32.928, 151.750], 12.8);
+        // initialise map
+        var map = L.map('map', {
+        zoomControl: false // disable the default zoom control
+        }).setView([-32.928, 151.750], 12.8);
 
-            // custom zoom controls
-            L.control.zoom({
-            position: 'bottomright' // move zoom control to bottom right
-            }).addTo(map);
+        // custom zoom controls
+        L.control.zoom({
+        position: 'bottomright' // move zoom control to bottom right
+        }).addTo(map);
 
-            // base map
-            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q', {
-            attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, ' +
-                        '<a href="https://www.mapbox.com/">Mapbox</a>',
-            maxZoom: 18,
-            id: 'tmurrant/clvlz3ce8019i01q190ig5dvt',
-            tileSize: 512,
-            zoomOffset: -1,
-            accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q' // replace this with your Mapbox access token
-            }).addTo(map);
+        // base map
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q', {
+        attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, ' +
+                    '<a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'tmurrant/clvlz3ce8019i01q190ig5dvt',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q' // replace this with your Mapbox access token
+        }).addTo(map);
 
+        // add playgrounds geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                pointToLayer: function (feature, latlng) {
+                    return L.marker(latlng, {
+                    icon: L.icon({
+                        iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
+                        iconSize: [26, 26],
+                        iconAnchor: [16, 16],
+                        popupAnchor: [0, -16]
+                    })
+                    });
+                },
+                onEachFeature: (feature, layer) => {
+                    let cafeIcon = feature.properties.Cafes === 'Yes' 
+                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
+                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
+                    
+                    let fenceIcon = feature.properties.Fenced === 'Yes' 
+                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
+                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
 
-            // add playgrounds geojson
-            // fetch GeoJSON data
-            fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
-                .then(response => response.json())
-                .then(data => {
-                    L.geoJSON(data, {
+                    let toiletIcon = feature.properties.Toilets === 'Yes' 
+                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
+                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
+                    
+                    let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
+                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
+                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
+                    
+                    //add data to layer pop-ups
+                    layer.bindPopup(
+                    `
+                        <h3>${feature.properties.Park}</h3>
+                        <div class="pill-button-1">Playground</div>
+                    <br>
+                        <img src="${cafeIcon}" style="width:24px;height:24px;">
+                        <img src="${fenceIcon}" style="width:24px;height:24px;">
+                        <img src="${toiletIcon}" style="width:24px;height:24px;">
+                        <img src="${inclusiveIcon}" style="width:24px;height:24px;">
+                    `
+                    );
+                }
+                }).addTo(map);
+            });
+
+        // add playgroups geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgroup.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
                     pointToLayer: function (feature, latlng) {
                         return L.marker(latlng, {
-                        icon: L.icon({
-                            iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
-                            iconSize: [32, 32],
-                            iconAnchor: [16, 16],
-                            popupAnchor: [0, -16]
-                        })
-                        });
-                    },
-                    onEachFeature: (feature, layer) => {
-                        let cafeIcon = feature.properties.Cafes === 'Yes' 
-                        ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
-                        : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
-                        
-                        let fenceIcon = feature.properties.Fenced === 'Yes' 
-                        ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
-                        : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
-
-                        let toiletIcon = feature.properties.Toilets === 'Yes' 
-                        ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
-                        : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
-                        
-                        let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
-                        ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
-                        : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
-                        
-                        //amend pop-up
-                        layer.bindPopup(
-                        `
-                            <h3>${feature.properties.Park}</h3>
-                            <div class="pill-button">Playground</div>
-                        <br>
-                            <img src="${cafeIcon}" style="width:24px;height:24px;">
-                            <img src="${fenceIcon}" style="width:24px;height:24px;">
-                            <img src="${toiletIcon}" style="width:24px;height:24px;">
-                            <img src="${inclusiveIcon}" style="width:24px;height:24px;">
-                        `
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/playgroup.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-2">Playgroup</div>
+                            <br>
+                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}">here</a> 
+                            for more information.`
                         );
                     }
-                    }).addTo(map);
-                })
+                }).addTo(map);
+            })
+
+        // add classes geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/classes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/classes.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-3">Class</div>
+                            <br>
+                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}">here</a> 
+                            for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // add community gardens geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/community_garden.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/community_garden.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-4">Community Garden</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // add pools geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/pool.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/pool.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-5">Pool</div>
+                            <br>
+                            The cost is ${feature.properties.Price}. Click <a href="${feature.properties.Website}">here</a> for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // add libraries geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/library.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/library.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-6">Library</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // add cafes geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/cafe.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/cafe.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-7">Cafe</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // add restaurants geojson
+        // fetch data
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/restaurant.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/restaurant.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>${feature.properties.Name}</h3>
+                            <div class="pill-button-7">Restaurant</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}">here</a> for more information.`
+                        );
+                    }
+                }).addTo(map);
+            })
+
+        // page pop-ups
+        document.getElementById('about-link').addEventListener('click', function() {
+            document.getElementById('about-popup').style.display = 'flex';
+        });
+
+        document.getElementById('howto-link').addEventListener('click', function() {
+            document.getElementById('howto-popup').style.display = 'flex';
+        });
+
+        document.getElementById('contact-link').addEventListener('click', function() {
+            document.getElementById('contact-popup').style.display = 'flex';
+        });
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = 'none';
+        }
     </script>
 </body>
 </html>
