@@ -1,1 +1,705 @@
-{"hasZ":true,"type":"FeatureCollection","features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[151.69724652046634,-32.936891226586667,0]},"properties":{"OBJECTID":1,"LGA":null,"Suburb":null,"Name":"Blackbutt Reserve","Type":"Attraction","URL":"https://newcastle.nsw.gov.au/blackbutt-reserve/blackbutt-reserve-home"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[151.91059726282739,-32.794205119205898,0]},"properties":{"OBJECTID":2,"LGA":null,"Suburb":null,"Name":"Oakvale Wildlife Park","Type":"Zoo","URL":"https://oakvalewildlife.com.au/"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[151.69629325433797,-32.875364704357601,0]},"properties":{"OBJECTID":3,"LGA":null,"Suburb":null,"Name":"Hunter Wetlands Centre","Type":"Attraction","URL":"https://wetlands.org.au/"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[152.06644021338678,-32.770181595439659,0]},"properties":{"OBJECTID":4,"LGA":null,"Suburb":null,"Name":"Irukandji Shark & Ray Centre","Type":"Zoo","URL":"https://sharkencounters.com.au/"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[151.56124526954329,-32.737388332196446,0]},"properties":{"OBJECTID":5,"LGA":null,"Suburb":null,"Name":"Maitland Regional Art Gallery","Type":"Art Gallery","URL":"https://mrag.org.au/"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[151.61579526035555,-32.974095508004652,0]},"properties":{"OBJECTID":6,"LGA":null,"Suburb":null,"Name":"Museum of Art and Culture, yapang","Type":"Art Gallery","URL":"https://mac.lakemac.com.au/Home"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[151.71756939819306,-32.80132835265853,0]},"properties":{"OBJECTID":7,"LGA":null,"Suburb":null,"Name":"Hunter Region Botanic Gardens","Type":"Attraction","URL":"https://www.huntergardens.org.au/"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[151.36316477938948,-32.796238212125239,0]},"properties":{"OBJECTID":8,"LGA":null,"Suburb":null,"Name":"Hunter Valley Wildlife Park","Type":"Zoo","URL":"https://huntervalleywildlifepark.com.au/"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[151.7911077448174,-32.925999667495674,0]},"properties":{"OBJECTID":9,"LGA":null,"Suburb":null,"Name":"Fort Scratchley","Type":"Attraction","URL":"https://newcastle.nsw.gov.au/fort-scratchley/fort-scratchley-home"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[151.77227473287081,-32.926019786304686,0]},"properties":{"OBJECTID":10,"LGA":null,"Suburb":null,"Name":"Newcastle Museum","Type":"Museum","URL":"https://newcastlemuseum.com.au/"}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[151.55357164748557,-32.713702773896287,0]},"properties":{"OBJECTID":11,"LGA":null,"Suburb":null,"Name":"Walka Water Works","Type":"Attraction","URL":"https://www.maitland.nsw.gov.au/facilities/walka-water-works"}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[151.7983091863106,-32.918591794625193,0]},"properties":{"OBJECTID":12,"LGA":null,"Suburb":null,"Name":"Nobbys Lighthouse","Type":"Attraction","URL":"https://www.visitnsw.com/destinations/north-coast/newcastle-area/newcastle/attractions/nobbys-lighthouse"}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[151.62413310661574,-32.880060116448782,0]},"properties":{"OBJECTID":13,"LGA":null,"Suburb":null,"Name":"TreeTops Adventure Park","Type":"Attraction","URL":"https://treetopsadventure.com.au/location/nsw-newcastle/"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[151.7683442558548,-32.936002954254064,0]},"properties":{"OBJECTID":15,"LGA":null,"Suburb":null,"Name":"Ninja Parc Newcastle","Type":"Playground","URL":"https://www.ninjaparc.com.au/indoor-obstacle-course-cooks-hill/"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[151.65705259424442,-32.965800132408468,0]},"properties":{"OBJECTID":17,"LGA":null,"Suburb":null,"Name":"Inflatable World Warners Bay","Type":"Playground","URL":"https://inflatableworldoz.com.au/"}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[151.50970945888585,-32.71190299593102,0]},"properties":{"OBJECTID":18,"LGA":null,"Suburb":null,"Name":"Inflatable World Maitland","Type":"Playground","URL":"https://inflatableworldoz.com.au/"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[151.59850472761701,-32.916190736608435,0]},"properties":{"OBJECTID":19,"LGA":null,"Suburb":null,"Name":"Sugar Valley Museum","Type":"Museum","URL":null}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[151.62692651590808,-32.725059889041752,0]},"properties":{"OBJECTID":20,"LGA":null,"Suburb":null,"Name":"Morpeth Museum","Type":"Museum","URL":"https://www.maitland.nsw.gov.au/facilities/morpeth-museum"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[151.61535366742652,-32.962129899032007,0]},"properties":{"OBJECTID":21,"LGA":null,"Suburb":null,"Name":"Multi-Arts Pavilion, mima","Type":"Art Gallery","URL":"https://www.lakemac.com.au/Venues/Lake-Macquarie-Multi-Arts-Pavilion-mima"}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[151.63723066742574,-33.091371076482929,0]},"properties":{"OBJECTID":22,"LGA":null,"Suburb":null,"Name":"SEEN@Swansea","Type":"Art Gallery","URL":"https://www.lakemac.com.au/Venues/SEENSwansea"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[151.85032953475758,-32.803063923904951,0]},"properties":{"OBJECTID":23,"LGA":null,"Suburb":null,"Name":"Fighter World","Type":"Attraction","URL":"https://fighterworld.com.au/"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[151.29682598150808,-32.773284243133027,0]},"properties":{"OBJECTID":24,"LGA":null,"Suburb":null,"Name":"Hunter Valley Gardens","Type":"Attraction","URL":"https://www.huntervalleygardens.com.au/"}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[151.4756024694185,-32.858009711397195,0]},"properties":{"OBJECTID":25,"LGA":null,"Suburb":null,"Name":"Richmond Vale Railway Museum","Type":"Museum","URL":"https://www.richmondvalerailwaymuseum.org/"}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[151.58992497223727,-32.74529214716285,0]},"properties":{"OBJECTID":26,"LGA":null,"Suburb":null,"Name":"Maitland Gaol","Type":"Attraction","URL":"https://www.maitlandgaol.com.au/"}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[152.1157375041029,-32.764761105803409,0]},"properties":{"OBJECTID":27,"LGA":null,"Suburb":null,"Name":"Port Stephens Koala Sanctuary","Type":"Zoo","URL":"https://www.portstephenskoalasanctuary.com.au/"}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[151.35631843563991,-32.833651184692265,0]},"properties":{"OBJECTID":28,"LGA":null,"Suburb":null,"Name":"Chameleon Play Cafe","Type":"Playground","URL":"https://chameleonplaycafe.com.au/"}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[151.65886572147454,-33.037163967718932,0]},"properties":{"OBJECTID":29,"LGA":null,"Suburb":null,"Name":"Chipmunks Playland","Type":"Playground","URL":"https://chipmunksplayland.com.au/belmont/"}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[151.71124871980169,-32.941837692748138,0]},"properties":{"OBJECTID":30,"LGA":null,"Suburb":null,"Name":"EMF Jnr Play Centre","Type":"Playground","URL":"https://emfpc.com.au/clubs/emf-jnr-kotara/"}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[151.50605087405859,-32.711575276962947,0]},"properties":{"OBJECTID":31,"LGA":null,"Suburb":null,"Name":"Gravity X Indoor Trampoline Centre","Type":"Playground","URL":"https://gravityx.net.au/"}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[151.59139958282731,-32.762280134085422,0]},"properties":{"OBJECTID":32,"LGA":null,"Suburb":null,"Name":"Kids World Adventure Playland","Type":"Playground","URL":"https://www.kidsworldplay.com.au/"}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[151.6576211568524,-32.966467484080965,0]},"properties":{"OBJECTID":33,"LGA":null,"Suburb":null,"Name":"Pulse Climbing","Type":"Attraction","URL":"https://pulseclimbing.com.au/"}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[151.71806863781057,-32.941638734243519,0]},"properties":{"OBJECTID":34,"LGA":null,"Suburb":null,"Name":"Pulse Climbing","Type":"Attraction","URL":"https://pulseclimbing.com.au/"}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[151.75610108181326,-32.913406406566608,0]},"properties":{"OBJECTID":35,"LGA":null,"Suburb":null,"Name":"Revolution Sports Park","Type":"Attraction","URL":"https://www.revolutionpark.com.au/newcastle/"}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[151.69805423975569,-32.990470668378919,0]},"properties":{"OBJECTID":36,"LGA":null,"Suburb":null,"Name":"Springloaded","Type":"Playground","URL":"https://www.springloaded.com.au/"}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[151.46632113788675,-31.821645103880499,0]},"properties":{"OBJECTID":37,"LGA":null,"Suburb":null,"Name":"Aussie Ark","Type":"Zoo","URL":"https://www.aussieark.org.au/"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69724652046634,
+          -32.93689122658667,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Blackbutt Reserve",
+        "Type": "Attraction",
+        "URL": "https://newcastle.nsw.gov.au/blackbutt-reserve/blackbutt-reserve-home"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9105972628274,
+          -32.7942051192059,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Oakvale Wildlife Park",
+        "Type": "Zoo",
+        "URL": "https://oakvalewildlife.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69629325433797,
+          -32.8753647043576,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Hunter Wetlands Centre",
+        "Type": "Attraction",
+        "URL": "https://wetlands.org.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06644021338678,
+          -32.77018159543966,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Irukandji Shark & Ray Centre",
+        "Type": "Zoo",
+        "URL": "https://sharkencounters.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5612452695433,
+          -32.737388332196446,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Maitland Regional Art Gallery",
+        "Type": "Art Gallery",
+        "URL": "https://mrag.org.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61579526035555,
+          -32.97409550800465,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Museum of Art and Culture, yapang",
+        "Type": "Art Gallery",
+        "URL": "https://mac.lakemac.com.au/Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71756939819306,
+          -32.80132835265853,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Hunter Region Botanic Gardens",
+        "Type": "Attraction",
+        "URL": "https://www.huntergardens.org.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36316477938948,
+          -32.79623821212524,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Hunter Valley Wildlife Park",
+        "Type": "Zoo",
+        "URL": "https://huntervalleywildlifepark.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7911077448174,
+          -32.925999667495674,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Fort Scratchley",
+        "Type": "Attraction",
+        "URL": "https://newcastle.nsw.gov.au/fort-scratchley/fort-scratchley-home"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7722747328708,
+          -32.926019786304686,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Newcastle Museum",
+        "Type": "Museum",
+        "URL": "https://newcastlemuseum.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55357164748557,
+          -32.71370277389629,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Walka Water Works",
+        "Type": "Attraction",
+        "URL": "https://www.maitland.nsw.gov.au/facilities/walka-water-works"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7983091863106,
+          -32.91859179462519,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Nobbys Lighthouse",
+        "Type": "Attraction",
+        "URL": "https://www.visitnsw.com/destinations/north-coast/newcastle-area/newcastle/attractions/nobbys-lighthouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62413310661574,
+          -32.88006011644878,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "TreeTops Adventure Park",
+        "Type": "Attraction",
+        "URL": "https://treetopsadventure.com.au/location/nsw-newcastle/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7683442558548,
+          -32.936002954254064,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Ninja Parc Newcastle",
+        "Type": "Playground",
+        "URL": "https://www.ninjaparc.com.au/indoor-obstacle-course-cooks-hill/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65705259424442,
+          -32.96580013240847,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Inflatable World Warners Bay",
+        "Type": "Playground",
+        "URL": "https://inflatableworldoz.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.50970945888585,
+          -32.71190299593102,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Inflatable World Maitland",
+        "Type": "Playground",
+        "URL": "https://inflatableworldoz.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.598504727617,
+          -32.916190736608435,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Sugar Valley Museum",
+        "Type": "Museum",
+        "URL": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62692651590808,
+          -32.72505988904175,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Morpeth Museum",
+        "Type": "Museum",
+        "URL": "https://www.maitland.nsw.gov.au/facilities/morpeth-museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61535366742652,
+          -32.96212989903201,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Multi-Arts Pavilion, mima",
+        "Type": "Art Gallery",
+        "URL": "https://www.lakemac.com.au/Venues/Lake-Macquarie-Multi-Arts-Pavilion-mima"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63723066742574,
+          -33.09137107648293,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "SEEN@Swansea",
+        "Type": "Art Gallery",
+        "URL": "https://www.lakemac.com.au/Venues/SEENSwansea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.85032953475758,
+          -32.80306392390495,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Fighter World",
+        "Type": "Attraction",
+        "URL": "https://fighterworld.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.29682598150808,
+          -32.77328424313303,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Hunter Valley Gardens",
+        "Type": "Attraction",
+        "URL": "https://www.huntervalleygardens.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4756024694185,
+          -32.858009711397195,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Richmond Vale Railway Museum",
+        "Type": "Museum",
+        "URL": "https://www.richmondvalerailwaymuseum.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58992497223727,
+          -32.74529214716285,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Maitland Gaol",
+        "Type": "Attraction",
+        "URL": "https://www.maitlandgaol.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1157375041029,
+          -32.76476110580341,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Port Stephens Koala Sanctuary",
+        "Type": "Zoo",
+        "URL": "https://www.portstephenskoalasanctuary.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3563184356399,
+          -32.833651184692265,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Chameleon Play Cafe",
+        "Type": "Playground",
+        "URL": "https://chameleonplaycafe.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65886572147454,
+          -33.03716396771893,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Chipmunks Playland",
+        "Type": "Playground",
+        "URL": "https://chipmunksplayland.com.au/belmont/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7112487198017,
+          -32.94183769274814,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "EMF Jnr Play Centre",
+        "Type": "Playground",
+        "URL": "https://emfpc.com.au/clubs/emf-jnr-kotara/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5060508740586,
+          -32.71157527696295,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Gravity X Indoor Trampoline Centre",
+        "Type": "Playground",
+        "URL": "https://gravityx.net.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5913995828273,
+          -32.76228013408542,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Kids World Adventure Playland",
+        "Type": "Playground",
+        "URL": "https://www.kidsworldplay.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6576211568524,
+          -32.966467484080965,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Pulse Climbing",
+        "Type": "Attraction",
+        "URL": "https://pulseclimbing.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71806863781057,
+          -32.94163873424352,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Pulse Climbing",
+        "Type": "Attraction",
+        "URL": "https://pulseclimbing.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75610108181326,
+          -32.91340640656661,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Revolution Sports Park",
+        "Type": "Attraction",
+        "URL": "https://www.revolutionpark.com.au/newcastle/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6980542397557,
+          -32.99047066837892,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Springloaded",
+        "Type": "Playground",
+        "URL": "https://www.springloaded.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46632113788675,
+          -31.8216451038805,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Aussie Ark",
+        "Type": "Zoo",
+        "URL": "https://www.aussieark.org.au/"
+      }
+    }
+  ]
+}
