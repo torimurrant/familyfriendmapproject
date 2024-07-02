@@ -1,1 +1,993 @@
-{"hasZ":true,"type":"FeatureCollection","features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[151.71532128244789,-32.920942911399493,0]},"properties":{"OBJECTID":1,"LGA":null,"Suburb":null,"Name":"Balance New Lambton","URL":"https://balancecollective.com.au/pages/creche"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[151.74290755038822,-32.891957336170144,0]},"properties":{"OBJECTID":2,"LGA":null,"Suburb":null,"Name":"Balance Mayfield","URL":"https://balancecollective.com.au/pages/creche"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[151.55065139068529,-32.728006831586534,0]},"properties":{"OBJECTID":3,"LGA":null,"Suburb":null,"Name":"Genesis Maitland","URL":"https://www.genesisfitness.com.au/gym/nsw/maitland/childcare"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[151.66236220530885,-32.962961806726312,0]},"properties":{"OBJECTID":4,"LGA":null,"Suburb":null,"Name":"Genesis Warners Bay","URL":"https://www.genesisfitness.com.au/gym/nsw/warners-bay"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[151.35357773409856,-32.843374867140781,0]},"properties":{"OBJECTID":5,"LGA":null,"Suburb":null,"Name":"Genesis Cessnock","URL":"https://www.genesisfitness.com.au/gym/nsw/cessnock"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[151.71155234497783,-32.941774587872253,0]},"properties":{"OBJECTID":6,"LGA":null,"Suburb":null,"Name":"EMF Kotara","URL":"https://emfpc.com.au/clubs/emf-fitness-centre-kotara/"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[151.63409816118164,-32.806911990819138,0]},"properties":{"OBJECTID":7,"LGA":null,"Suburb":null,"Name":"World Gym Beresfield","URL":"https://www.worldgym.com.au/gyms/beresfield/"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[151.5937645433398,-32.762866974026785,0]},"properties":{"OBJECTID":8,"LGA":null,"Suburb":null,"Name":"Gap Pilates","URL":"https://www.gappilates.com.au/"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[151.66909617071468,-32.902117849899717,0]},"properties":{"OBJECTID":9,"LGA":null,"Suburb":null,"Name":"Core Collective Pilates","URL":"https://www.corecollectivepilates.com/"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[151.50173890499926,-32.706429813193616,0]},"properties":{"OBJECTID":10,"LGA":null,"Suburb":null,"Name":"Premier Fitness","URL":"https://premierfitnessandmartialarts.com/"}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[151.71198755268182,-32.956028672121818,0]},"properties":{"OBJECTID":11,"LGA":null,"Suburb":null,"Name":"The Concept","URL":"https://theconceptsdc.com.au/"}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[151.63819689714194,-32.808543568979232,0]},"properties":{"OBJECTID":12,"LGA":null,"Suburb":null,"Name":"Loose Canon Crossfit","URL":"https://www.crossfit.com/gym/31873/crossfit-loose-cannon"}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[151.51254465600857,-32.710299972432239,0]},"properties":{"OBJECTID":13,"LGA":null,"Suburb":null,"Name":"Genesis Rutherford","URL":"https://www.genesisfitness.com.au/gym/nsw/rutherford"}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[151.64603096819087,-32.945517917651848,0]},"properties":{"OBJECTID":14,"LGA":null,"Suburb":null,"Name":"Shift Fitness Cardiff","URL":"https://shifthealthandfitness.com.au/"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[151.47326692693488,-33.116790074100237,0]},"properties":{"OBJECTID":15,"LGA":null,"Suburb":null,"Name":"Shift Fitness Morisset","URL":"https://shifthealthandfitness.com.au/"}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[151.17849453023993,-32.55701479665008,0]},"properties":{"OBJECTID":16,"LGA":null,"Suburb":null,"Name":"Singleton Gym & Swim","URL":"https://www.singletongymswim.com.au/"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[151.69693385105185,-32.987303291234568,0]},"properties":{"OBJECTID":17,"LGA":null,"Suburb":null,"Name":"Freezing Hot Crossfit","URL":"https://www.freezinghotcrossfit.com/"}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[151.71767371146223,-32.941019730770343,0]},"properties":{"OBJECTID":18,"LGA":null,"Suburb":null,"Name":"Kin Health Co.","URL":"https://kinhealthco.com.au/"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[151.55153121055596,-32.728835239524642,0]},"properties":{"OBJECTID":19,"LGA":null,"Suburb":null,"Name":"Adam Prowse Personal Training","URL":"https://www.adamprowse.com/maitland-gym/"}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[151.61657498993731,-32.953661377723982,0]},"properties":{"OBJECTID":20,"LGA":null,"Suburb":null,"Name":"Adam Prowse Personal Training","URL":"https://www.adamprowse.com/gym-lake-macquarie/"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[151.62506680025075,-32.926037041335341,0]},"properties":{"OBJECTID":21,"LGA":null,"Suburb":null,"Name":"Achieve Strength & Conditioning","URL":"https://achievesc.com.au/"}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[151.7136702777704,-32.924571488798556,0]},"properties":{"OBJECTID":22,"LGA":null,"Suburb":null,"Name":"The Self Care Sisterhood","URL":"https://www.theselfcaresisterhood.com/"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[151.56781213932311,-33.037327635199077,0]},"properties":{"OBJECTID":23,"LGA":null,"Suburb":null,"Name":"Crossfit 2283","URL":"https://crossfit2283.com/"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[151.47775362370686,-32.811632076991977,0]},"properties":{"OBJECTID":24,"LGA":null,"Suburb":null,"Name":"iGym 24/7 Kurri Kurri","URL":"https://igym247.com/kurrikurri/"}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[151.72825309420648,-32.882278529495373,0]},"properties":{"OBJECTID":25,"LGA":null,"Suburb":null,"Name":"Lifestyle Performance","URL":"https://www.lifestyleperformance.com.au/"}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[151.63848974792458,-33.099337280964043,0]},"properties":{"OBJECTID":26,"LGA":null,"Suburb":null,"Name":"Caves Beach Gym","URL":"https://www.cavesbeachgym.com.au/"}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[151.62296963920247,-32.950365740368198,0]},"properties":{"OBJECTID":27,"LGA":null,"Suburb":null,"Name":"Atomic Fitness","URL":"https://www.facebook.com/atomicfitnessnewcastle/"}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[151.74749060494909,-32.919999815435247,0]},"properties":{"OBJECTID":28,"LGA":null,"Suburb":null,"Name":"Manisha Fitness","URL":"https://www.manishafitness.com/"}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[151.69551952370563,-32.987246863184154,0]},"properties":{"OBJECTID":29,"LGA":null,"Suburb":null,"Name":"Core Fitness","URL":"https://www.corefitnessnewcastle.com.au/"}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[151.66301911812332,-33.023606071502321,0]},"properties":{"OBJECTID":30,"LGA":null,"Suburb":null,"Name":"Core Active","URL":"https://www.coreactive.com.au/"}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[151.64720116039231,-32.940300702358734,0]},"properties":{"OBJECTID":32,"LGA":null,"Suburb":null,"Name":"J-Ray FIT","URL":"https://www.facebook.com/jessierayfitness/"}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[151.72381736784374,-32.912948476283397,0]},"properties":{"OBJECTID":33,"LGA":null,"Suburb":null,"Name":"The Movement Collective","URL":"https://www.themovementcollective.com.au/"}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[151.65430634740281,-32.947165185084259,0]},"properties":{"OBJECTID":34,"LGA":null,"Suburb":null,"Name":"Kirby Bree Fitness","URL":"https://kirbybreefitness.com/"}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[151.69368753724444,-32.965527916946158,0]},"properties":{"OBJECTID":35,"LGA":null,"Suburb":null,"Name":"Fitstop Charlestown","URL":"https://fitstop.com/au/web/locations/au/Charlestown"}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[151.54120558301486,-32.724467070807322,0]},"properties":{"OBJECTID":36,"LGA":null,"Suburb":null,"Name":"World Gym Maitland","URL":"https://www.worldgym.com.au/gyms/maitland"}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[151.45821162989699,-32.815355196527491,0]},"properties":{"OBJECTID":38,"LGA":null,"Suburb":null,"Name":"Ashleigh Newburn's Personal Training","URL":"https://www.ashleighnewburnspt.com.au/"}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[151.67215747918436,-32.899226653412349,0]},"properties":{"OBJECTID":39,"LGA":null,"Suburb":null,"Name":"Magic Motivation Fitness","URL":"https://www.mindbodyonline.com/explore/locations/magic-motivation-fitness"}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[151.65852815794699,-32.963846963739748,0]},"properties":{"OBJECTID":42,"LGA":null,"Suburb":null,"Name":"Wellfit Personal Training","URL":"https://wellfitpersonaltraining.com.au/warners-bay/"}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[151.60260074527528,-32.894637679392538,0]},"properties":{"OBJECTID":43,"LGA":null,"Suburb":null,"Name":"Crossfit Life CSP","URL":"https://www.crossfitlife.net/"}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":[151.69306078446735,-32.996685914240246,0]},"properties":{"OBJECTID":44,"LGA":null,"Suburb":null,"Name":"Ascend Fitness Studio","URL":"https://www.facebook.com/ascendfitnessstudiobg/"}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[151.71054972450941,-32.875424943643822,0]},"properties":{"OBJECTID":45,"LGA":null,"Suburb":null,"Name":"Fit180","URL":"https://www.fit180.com.au/"}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[151.59739885838312,-32.895348427999323,0]},"properties":{"OBJECTID":46,"LGA":null,"Suburb":null,"Name":"G-Force Pole and Fitness","URL":"https://www.gforcepoleandaerials.com.au/"}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[151.35335924316021,-32.655748938238808,0]},"properties":{"OBJECTID":47,"LGA":null,"Suburb":null,"Name":"RunBaby Pilates","URL":"https://www.runbaby.com.au/"}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[151.76811716264928,-32.908202890603583,0]},"properties":{"OBJECTID":48,"LGA":null,"Suburb":null,"Name":"Pineapple Fit","URL":"https://www.pineapplefit.com.au/"}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[152.15596045399329,-32.716898348602484,0]},"properties":{"OBJECTID":49,"LGA":null,"Suburb":null,"Name":"Our Gym Nelson Bay","URL":"https://www.ourgym.com.au/our-creche"}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[152.15376198903215,-32.721187395525064,0]},"properties":{"OBJECTID":50,"LGA":null,"Suburb":null,"Name":"PCYC Gym","URL":"https://www.pcycnsw.org.au/port-stephens-nelson-bay/"}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[152.10932429833886,-32.733925018734382,0]},"properties":{"OBJECTID":51,"LGA":null,"Suburb":null,"Name":"iGym 24/7 Salamander Bay","URL":"https://igym247.com/salamanderbay-htm-2/"}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[151.58072073412322,-32.746780442198563,0]},"properties":{"OBJECTID":52,"LGA":null,"Suburb":null,"Name":"Cornerstone Gym East Maitland","URL":"https://www.facebook.com/p/Cornerstone-Gym-Hunter-Valley-61552439934405/"}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[151.55744350763274,-32.733149454640021,0]},"properties":{"OBJECTID":53,"LGA":null,"Suburb":null,"Name":"Fitstop Maitland","URL":"https://fitstop.com/au/web/locations/au/Maitland"}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":[151.59699203923873,-32.915913180877773,0]},"properties":{"OBJECTID":54,"LGA":null,"Suburb":null,"Name":"Snap Fitness Cameron Park","URL":"https://www.snapfitness.com/au/gyms/cameron-park?utm_source=gmb&utm_medium=yext"}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[151.87315374354517,-32.742820803896166,0]},"properties":{"OBJECTID":55,"LGA":null,"Suburb":null,"Name":"Active Fitness Medowie","URL":"https://activefitnessmedowie.com.au/kids-klub-creche/"}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":[151.74863792963671,-32.760113099844084,0]},"properties":{"OBJECTID":56,"LGA":null,"Suburb":null,"Name":"PCYC Gym Raymond Terrace","URL":"https://www.pcycnsw.org.au/port-stephens-raymond-terrace"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7153212824479,
+          -32.92094291139949,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Balance New Lambton",
+        "URL": "https://balancecollective.com.au/pages/creche"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74290755038822,
+          -32.891957336170144,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Balance Mayfield",
+        "URL": "https://balancecollective.com.au/pages/creche"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5506513906853,
+          -32.728006831586534,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Genesis Maitland",
+        "URL": "https://www.genesisfitness.com.au/gym/nsw/maitland/childcare"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66236220530885,
+          -32.96296180672631,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Genesis Warners Bay",
+        "URL": "https://www.genesisfitness.com.au/gym/nsw/warners-bay"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35357773409856,
+          -32.84337486714078,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Genesis Cessnock",
+        "URL": "https://www.genesisfitness.com.au/gym/nsw/cessnock"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71155234497783,
+          -32.94177458787225,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "EMF Kotara",
+        "URL": "https://emfpc.com.au/clubs/emf-fitness-centre-kotara/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63409816118164,
+          -32.80691199081914,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "World Gym Beresfield",
+        "URL": "https://www.worldgym.com.au/gyms/beresfield/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5937645433398,
+          -32.762866974026785,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Gap Pilates",
+        "URL": "https://www.gappilates.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66909617071468,
+          -32.90211784989972,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Core Collective Pilates",
+        "URL": "https://www.corecollectivepilates.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.50173890499926,
+          -32.706429813193616,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Premier Fitness",
+        "URL": "https://premierfitnessandmartialarts.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71198755268182,
+          -32.95602867212182,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "The Concept",
+        "URL": "https://theconceptsdc.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63819689714194,
+          -32.80854356897923,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Loose Canon Crossfit",
+        "URL": "https://www.crossfit.com/gym/31873/crossfit-loose-cannon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51254465600857,
+          -32.71029997243224,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Genesis Rutherford",
+        "URL": "https://www.genesisfitness.com.au/gym/nsw/rutherford"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64603096819087,
+          -32.94551791765185,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Shift Fitness Cardiff",
+        "URL": "https://shifthealthandfitness.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47326692693488,
+          -33.11679007410024,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Shift Fitness Morisset",
+        "URL": "https://shifthealthandfitness.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17849453023993,
+          -32.55701479665008,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Singleton Gym & Swim",
+        "URL": "https://www.singletongymswim.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69693385105185,
+          -32.98730329123457,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Freezing Hot Crossfit",
+        "URL": "https://www.freezinghotcrossfit.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71767371146223,
+          -32.94101973077034,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Kin Health Co.",
+        "URL": "https://kinhealthco.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55153121055596,
+          -32.72883523952464,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Adam Prowse Personal Training",
+        "URL": "https://www.adamprowse.com/maitland-gym/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6165749899373,
+          -32.95366137772398,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Adam Prowse Personal Training",
+        "URL": "https://www.adamprowse.com/gym-lake-macquarie/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62506680025075,
+          -32.92603704133534,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Achieve Strength & Conditioning",
+        "URL": "https://achievesc.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7136702777704,
+          -32.924571488798556,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "The Self Care Sisterhood",
+        "URL": "https://www.theselfcaresisterhood.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5678121393231,
+          -33.03732763519908,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Crossfit 2283",
+        "URL": "https://crossfit2283.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47775362370686,
+          -32.81163207699198,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "iGym 24/7 Kurri Kurri",
+        "URL": "https://igym247.com/kurrikurri/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72825309420648,
+          -32.88227852949537,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Lifestyle Performance",
+        "URL": "https://www.lifestyleperformance.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63848974792458,
+          -33.09933728096404,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Caves Beach Gym",
+        "URL": "https://www.cavesbeachgym.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62296963920247,
+          -32.9503657403682,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Atomic Fitness",
+        "URL": "https://www.facebook.com/atomicfitnessnewcastle/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7474906049491,
+          -32.91999981543525,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Manisha Fitness",
+        "URL": "https://www.manishafitness.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69551952370563,
+          -32.987246863184154,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Core Fitness",
+        "URL": "https://www.corefitnessnewcastle.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66301911812332,
+          -33.02360607150232,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Core Active",
+        "URL": "https://www.coreactive.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6472011603923,
+          -32.94030070235873,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "J-Ray FIT",
+        "URL": "https://www.facebook.com/jessierayfitness/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72381736784374,
+          -32.9129484762834,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "The Movement Collective",
+        "URL": "https://www.themovementcollective.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6543063474028,
+          -32.94716518508426,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Kirby Bree Fitness",
+        "URL": "https://kirbybreefitness.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69368753724444,
+          -32.96552791694616,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Fitstop Charlestown",
+        "URL": "https://fitstop.com/au/web/locations/au/Charlestown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.54120558301486,
+          -32.72446707080732,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "World Gym Maitland",
+        "URL": "https://www.worldgym.com.au/gyms/maitland"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.458211629897,
+          -32.81535519652749,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Ashleigh Newburn's Personal Training",
+        "URL": "https://www.ashleighnewburnspt.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67215747918436,
+          -32.89922665341235,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Magic Motivation Fitness",
+        "URL": "https://www.mindbodyonline.com/explore/locations/magic-motivation-fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.658528157947,
+          -32.96384696373975,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Wellfit Personal Training",
+        "URL": "https://wellfitpersonaltraining.com.au/warners-bay/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60260074527528,
+          -32.89463767939254,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Crossfit Life CSP",
+        "URL": "https://www.crossfitlife.net/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69306078446735,
+          -32.996685914240246,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Ascend Fitness Studio",
+        "URL": "https://www.facebook.com/ascendfitnessstudiobg/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7105497245094,
+          -32.87542494364382,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Fit180",
+        "URL": "https://www.fit180.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59739885838312,
+          -32.89534842799932,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "G-Force Pole and Fitness",
+        "URL": "https://www.gforcepoleandaerials.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3533592431602,
+          -32.65574893823881,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "RunBaby Pilates",
+        "URL": "https://www.runbaby.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76811716264928,
+          -32.90820289060358,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Pineapple Fit",
+        "URL": "https://www.pineapplefit.com.au/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1559604539933,
+          -32.716898348602484,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Our Gym Nelson Bay",
+        "URL": "https://www.ourgym.com.au/our-creche"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.15376198903215,
+          -32.721187395525064,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "PCYC Gym",
+        "URL": "https://www.pcycnsw.org.au/port-stephens-nelson-bay/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10932429833886,
+          -32.73392501873438,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "iGym 24/7 Salamander Bay",
+        "URL": "https://igym247.com/salamanderbay-htm-2/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58072073412322,
+          -32.74678044219856,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Cornerstone Gym East Maitland",
+        "URL": "https://www.facebook.com/p/Cornerstone-Gym-Hunter-Valley-61552439934405/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55744350763274,
+          -32.73314945464002,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Fitstop Maitland",
+        "URL": "https://fitstop.com/au/web/locations/au/Maitland"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59699203923873,
+          -32.91591318087777,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Snap Fitness Cameron Park",
+        "URL": "https://www.snapfitness.com/au/gyms/cameron-park?utm_source=gmb&utm_medium=yext"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.87315374354517,
+          -32.742820803896166,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "Active Fitness Medowie",
+        "URL": "https://activefitnessmedowie.com.au/kids-klub-creche/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74863792963671,
+          -32.760113099844084,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "LGA": null,
+        "Suburb": null,
+        "Name": "PCYC Gym Raymond Terrace",
+        "URL": "https://www.pcycnsw.org.au/port-stephens-raymond-terrace"
+      }
+    }
+  ]
+}
