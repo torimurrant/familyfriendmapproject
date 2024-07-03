@@ -3,29 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Friendly Map Project</title>
+    <title>Family Friendly Map Project by Tori Murrant</title>
+    <!--leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
-    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+    <!--mapbox-->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css">
+    <!--fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
     <style>
+        /* header & navigation */
         header {
             background-color: #F8F9FA;
             height: 50px;
             padding: 5px 10px;
             display: flex;
-            box-shadow: rgba(0, 0, 0, 0.08),;
+            box-shadow: rgba(0, 0, 0, 0.08);
             align-items: center;
-            justify-content: space-between;
         }
 
         header img {
             height: 100%;
             width: auto;
+            margin-right: 10px;
+        }
+
+        .header-text {
+            display: flex;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            color: #101E8E;
             margin-right: auto;
         }
 
@@ -45,7 +56,7 @@
             padding: 5px 15px;
             border-radius: 20px;
             text-align: center;
-            transition: opacity 0.5s ease;
+            transition: opacity 0.3s ease;
         }
 
         nav a:hover {
@@ -64,6 +75,121 @@
             background-color: #40E0D0;
         }
 
+        nav a:nth-child(4) {
+            background-color: #FF8593;
+        }
+
+        nav a:nth-child(5) {
+            background-color: #FFA500;
+        }
+
+        /* pop-up pages */
+        .popup-page {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-content-1 {
+            background-color: #F8F9FA;
+            color:#343A40;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        .popup-content-2 {
+            background-color: #F8F9FA;
+            color:#343A40;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            max-width: 300px;
+            width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        .popup-button1 {
+            background-color: #B19CD9; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .popup-button1:hover {
+            opacity: 0.8;
+        }
+
+        input[type=checkbox] {
+            margin-right: 10px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        label > select {
+            margin-left: 10px;
+            padding: 5px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        label > select:focus {
+            border-color: #4CAF50;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        select:focus {
+            border-color: #4CAF50;
+        }
+
+        /* body */
         body {
             margin: 0;
             padding: 0;
@@ -71,6 +197,7 @@
             display: flex;
             flex-direction: column;
             height: 100vh;
+            color:#343A40;
         }
 
         p { 
@@ -82,6 +209,8 @@
             font-family: 'Raleway', sans-serif;
             margin: 0;
             padding-bottom: 2px;
+            text-decoration: underline;
+            text-decoration-color:#FFA3A3;
         }
 
         h2 {
@@ -100,15 +229,29 @@
             align-items: center;
         }
 
+        /* map frame */
         #map {
             flex-grow: 1;
             width: 100%;
             height: 100vh;
         }
 
-        .pill-button-1 {
+        .marker-cluster-custom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 2px #999;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* map pop ups */
+        .pill-button-1, .pill-button-2, .pill-button-3, .pill-button-4, .pill-button-5, .pill-button-6, .pill-button-7, .pill-button-8, .pill-button-9, .pill-button-10 {
             display: inline-block;
-            background-color: #FF8593;
             color: white;
             font-family: 'Nunito', sans-serif;
             font-size: 10px;
@@ -120,103 +263,16 @@
             margin-bottom: 10px;
         }
 
-        .pill-button-2 {
-            display: inline-block;
-            background-color: #FFA3A3;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-3 {
-            display: inline-block;
-            background-color: #B19CD9;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-4 {
-            display: inline-block;
-            background-color: #64BE53;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-5 {
-            display: inline-block;
-            background-color: #00B7FF;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-6 {
-            display: inline-block;
-            background-color: #9370DB;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-7 {
-            display: inline-block;
-            background-color: #FFD700;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .pill-button-8 {
-            display: inline-block;
-            background-color: #FFA500;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            padding: 5px 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+        .pill-button-1 { background-color: #FF8593; }
+        .pill-button-2 { background-color: #FFA3A3; }
+        .pill-button-3 { background-color: #B19CD9; }
+        .pill-button-4 { background-color: #64BE53; }
+        .pill-button-5 { background-color: #00B7FF; }
+        .pill-button-6 { background-color: #9370DB; }
+        .pill-button-7 { background-color: #FFD700; }
+        .pill-button-8 { background-color: #FFA500; }
+        .pill-button-9 { background-color: #4682b4; }
+        .pill-button-10 { background-color: #FF6347; }
 
         .leaflet-popup-content-wrapper {
             border-radius: 10px;
@@ -224,34 +280,6 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
             background-color: #F8F9FA;
             padding: 5px;
-        }
-
-        .popup-page {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.3);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        .popup-content {
-            background-color: #F8F9FA;
-            padding: 20px;
-            border-radius: 10px;
-            position: relative;
-            max-width: 500px;
-            width: 90%;
-            max-height: 80%;
-            overflow-y: auto;
-        }
-
-        .popup-content h1 {
-            margin-top: 0;
         }
 
         .close-button {
@@ -272,72 +300,105 @@
             text-decoration: none;
             color: black;
         }
-
-        .marker-cluster-custom {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            border: 2px solid white;
-            box-shadow: 0 0 2px #999;
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-            font-family: 'Roboto', sans-serif;
-        }
     </style>
 </head>
 
 <body>
+    <!-- header & navigation -->
     <header>
-        <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon_v2.png?raw=true">
+            <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon_v2.png?raw=true">
+            <span class="header-text">FAMILY FRIENDLY MAP PROJECT</span>
         <nav>
            <a href="#" id="about-link">info</a>
            <a href="#" id="howto-link">how to</a>
+           <a href="#" id="filter-link">filter</a>
+           <a href="#" id="layers-link">layers</a>
            <a href="#" id="contact-link">contact</a>
         </nav>
     </header>
     <div id="map"></div>
 
-    <!-- pop-up pages -->
+    <!--welcome splash pop-up-->
+    <div id="welcome-popup" class="popup-page">
+        <div class="popup-content-1">
+            <button class="close-button" onclick="closePopup('welcome-popup')">&times;</button>
+            <h1>Welcome!</h1>
+            Welcome to the Family Friendly Map Project. I created this app to help carers find activities for their families in the 
+            Hunter region. The instructions below will help you navigate and use the website. If you need to access these instructions again, click the 
+            <span style="color:#B19CD9"><b>how to</b></span> button in the top navigation pane. I hope you find somewhere new to play 💓!
+            <br><br>
+            <h2>Getting started</h2>
+                Upon opening the app, you'll see a map with icons representing different family friendly activities in the Hunter region. You can zoom in and 
+                out, move around, and click icons for more information about each activity.
+                <br><br>
+            <h2>Layers</h2>
+                In the top navigation pane, you will find a button to show or hide different <span style="color:#FF8593"><b>layers</b></span>. Use the 
+                check boxes to show or hide different layers to help make it easier to find what you're looking for.
+                <br><br>
+            <h2>Filter</h2>
+                In the top navigation pane, you will find a button to <span style="color:#40E0D0"><b>filter</b></span> playgrounds. You can filter which 
+                playgrounds are visible on the map by five features: nearby cafes (less than 1km from the playground), fenced playgrounds, toilets, accessible 
+                play equipment, and age suitability. You can read about how I determined these features in the <span style="color:#FFD700"><b>info</b></span> 
+                tab.
+                <br><br>
+            <h2>Pop-ups</h2>
+                Click on any icon to get more information about that location. When you click an icon, a pop-up will appear with more information, including 
+                what type of activity it is. For all activities <b>except playgrounds</b>, the pop-ups contain details about a URL for the activity website, cost, 
+                whether there's classes available, etc.<br><br>
+                Additionally, you can click on the title in the pop-up to open the location in Google Maps in my browser or mobile app for easy navigation.
+                <br><br>
+            <h2>Symbols</h2>
+                Categories are symbolised by colour primarily, then symbols for sub-categories. For example, the cultural activity category is 
+                <span style="color:#FF6347"><b>red</b></span> with different symbols for art galleries, museums, attractions, etc. Additionally, you can view the 
+                category within the pop-up.<br><br>
+                Playgrounds come with extra symbols in the pop-up to indicate the presence of the features outlined below. 
+                When the symbols are in colour, that indicates that the feature is present at that playground. If the symbol is grey, that means the feature is 
+                not present at that playground.<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/cafe_true.svg"> Cafes within 1km<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/fence_true.svg"> Fenced playground<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/toilet_true.svg"> Toilets<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/inclusive_true.svg"> Accessible play equipment<br>
+                If all stars are coloured, that means the playground is suitable for all ages.
+        </div>
+    </div>
+
+    <!-- navigation pop-up pages -->
     <div id="about-popup" class="popup-page">
-        <div class="popup-content">
+        <div class="popup-content-1">
             <button class="close-button" onclick="closePopup('about-popup')">&times;</button>
-            <h1>info</h1><br>
-                <p>
+            <h1>info</h1>
                     <h2>about</h2>
                     Hi, and thanks for visiting! I'm Tori Murrant. At home, I'm a mum; and at work, I'm a researcher and spatial analyst 
-                    (I work with the location of things). I'm the sole developer of this project.<br>
+                    (I work with the location of things). I'm the sole developer of this project.<br><br>
                     Living in the city with no yard, I frequently visit the many playgrounds that the Hunter region has to offer. 
                     While we have a handful of usual favourites, I wanted to explore new parks - but they need to meet certain criteria.
                     I wanted to be able to search for parks based on the different facilities they have, but I couldn't find anything that 
-                    met my needs. So I made it!<br>
+                    met my needs. So I made it!<br><br>
                     I hope this website helps you find a fun new place to explore. A place with toilets and coffee nearby. 🙏
-                </p>
                 
                 <p>
                     <h2>faq</h2>
                     <b>How did you determine the age suitability for playgrounds?</b><br>
-                    There were a few variables that I considered when determining which ages a playground was suitable for.<br>
+                    There were a few variables that I considered when determining which ages a playground was suitable for.<br><br>
                     • Babies: The playground has ground level play equipment for a child with limited physical mobility to engage with sensory 
                     experiences or play equipment. Playgrounds with bark were considered not suitable for babies due to the likelihood of 
                     a baby putting bark in their mouth.<br><br>
                     • Toddlers: The playground has low-level play equipment for a new walker to engage with, and stairs or ramps to access 
                     higher levels of play equipment. Essentially, I could imagine two toddlers playing independently and their parents feeling 
-                    safe.<br>
+                    safe.<br><br>
                     • Big Kids: The playground has limited or difficult play equipment; leaving plenty of room for imaginative play, running around, 
-                    or testing their physical abilities. There is limited accessibility for younger children.<br>
+                    or testing their physical abilities. There is limited accessibility for younger children.<br><br>
                     • All Ages: The playground has a variety of equipment that is accessible to all ages; such as stairs, ladders, swings, or 
                     sensory experiences.<br><br>
                     <b>How did you determine if a park was accessible?</b><br>
                     Accessibility wasn't just about physical access- but play equipment and opportunity for kids and families with different 
-                    physical and mental abilities. Where a playground is deemed accessible, I felt that the play equipment was adequate for 
+                    physical and mental abilities. Where a playground is classed accessible, I felt that the play equipment was adequate for 
                     kids with sensory needs, or it was *actually* accessible by kids with different physical requirements.<br><br>
                     <b>How did you determine if a cafe/restaurant/bistro was kid-friendly?</b><br>
-                    There were three factors I assessed to determine whether a venue was kid-friendly:<br>
+                    There were three factors I assessed to determine whether a venue was kid-friendly:<br><br>
                     • Does the venue have adequate space for a pram, crawling baby, or toddler to walk around?<br>
                     • Does the venue have play equipment?<br>
-                    • What are the vibes of the venues patronage and staff towards children?<br>
+                    • What are the vibes of the venues patronage and staff towards children?<br><br>
                     The venue had to fulfill two of these requirements for me to consider it kid-friendly. If you think there's a venue missing, please 
                     contact me and I'll investigate it!<br><br>
                     <b>Can you add pet-friendly playgrounds?</b><br>
@@ -359,37 +420,106 @@
     </div>
 
     <div id="howto-popup" class="popup-page">
-        <div class="popup-content">
+        <div class="popup-content-1">
             <button class="close-button" onclick="closePopup('howto-popup')">&times;</button>
             <h1>how to</h1>
-            <p>How to content goes here...</p>
+            <h2>Getting started</h2>
+                Upon opening the app, you'll see a map with icons representing different family friendly activities in the Hunter region. You can zoom in and 
+                out, move around, and click icons for more information about each activity.
+                <br><br>
+            <h2>Layers</h2>
+                In the top navigation pane, you will find a button to show or hide different <span style="color:#FF8593"><b>layers</b></span>. Use the 
+                check boxes to show or hide different layers to help make it easier to find what you're looking for.
+                <br><br>
+            <h2>Filter</h2>
+                In the top navigation pane, you will find a button to <span style="color:#40E0D0"><b>filter</b></span> playgrounds. You can filter which 
+                playgrounds are visible on the map by five features: nearby cafes (less than 1km from the playground), fenced playgrounds, toilets, accessible 
+                play equipment, and age suitability. You can read about how I determined these features in the <span style="color:#FFD700"><b>info</b></span> 
+                tab.
+                <br><br>
+            <h2>Pop-ups</h2>
+                Click on any icon to get more information about that location. When you click an icon, a pop-up will appear with more information, including 
+                what type of activity it is. For all activities <b>except playgrounds</b>, the pop-ups contain details about a URL for the activity website, cost, 
+                whether there's classes available, etc.
+                <br><br>
+                Additionally, you can click on the title in the pop-up to open the location in Google Maps in my browser or mobile app for easy navigation.
+                <br><br>
+            <h2>Symbols</h2>
+                Categories are symbolised by colour primarily, then symbols for sub-categories. For example, the cultural activity category is 
+                <span style="color:#FF6347"><b>red</b></span> with different symbols for art galleries, museums, attractions, etc. Additionally, you can view the 
+                category within the pop-up.<br><br>
+                Playgrounds come with extra symbols in the pop-up to indicate the presence of the features outlined below. 
+                When the symbols are in colour, that indicates that the feature is present at that playground. If the symbol is grey, that means the feature is 
+                not present at that playground.<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/cafe_true.svg"> Cafes within 1km<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/fence_true.svg"> Fenced playground<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/toilet_true.svg"> Toilets<br>
+                <img src="https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/0f8358c00ea0d619cf6ef8fd54372dc990eb507f/icons/inclusive_true.svg"> Accessible play equipment<br>
+                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/suitability_all-ages.png?raw=true" style="height:30px"> Age suitability, from babies (smallest) to big kids (biggest). 
+                If all stars are coloured, that means the playground is suitable for all ages.
+        </div>
+    </div>
+
+    <div id="filter-popup" class="popup-page">
+        <div class="popup-content-2">
+            <button class="close-button" onclick="closePopup('filter-popup')">&times;</button>
+        <h1>Filter Playgrounds</h1>
+        <form id="filter-form">
+            <h2>Features</h2>
+            <label><input type="checkbox" name="cafe" value="Yes">Cafes nearby</label>
+            <label><input type="checkbox" name="fence" value="Yes">Fenced</label>
+            <label><input type="checkbox" name="toilet" value="Yes">Toilets</label>
+            <label><input type="checkbox" name="inclusive" value="Yes">Inclusive Play</label><br>
+            <h2>Age</h2>
+            <label><input type="checkbox" name="age" value="Baby">Babies</label>
+            <label><input type="checkbox" name="age"value="Toddler">Toddlers</label>
+            <label><input type="checkbox" name="age" value="Big Kid">Big Kids</label>
+            <label><input type="checkbox" name="age" value="All Ages">All Ages</label><br>
+            <button type="button" class="popup-button1" onclick="applyFilters()">Apply</button>
+        </form>
+        </div>
+    </div>
+
+    <div id="layers-popup" class="popup-page">
+        <div class="popup-content-2">
+            <button class="close-button" onclick="closePopup('layers-popup')">&times;</button>
+            <h1>Layers</h1>
+            <form id="layers-form">
+                <label><input type="checkbox" id="playground-layer" checked>Playgrounds</label>
+                <label><input type="checkbox" id="playgroup-layer" checked>Playgroups</label>
+                <label><input type="checkbox" id="classes-layer" checked>Classes</label>
+                <label><input type="checkbox" id="community-garden-layer" checked>Community Gardens</label>
+                <label><input type="checkbox" id="pool-layer" checked>Pools</label>
+                <label><input type="checkbox" id="library-layer" checked>Libraries</label>
+                <label><input type="checkbox" id="cafe-layer" checked>Cafes</label>
+                <label><input type="checkbox" id="restaurant-layer" checked>Restaurants</label>
+                <label><input type="checkbox" id="gym-layer" checked>Gyms</label>
+                <label><input type="checkbox" id="attraction-layer" checked>Attractions</label><br>
+                <button type="button" class="popup-button1" onclick="applyLayerToggle()">Apply</button>
+            </form>
         </div>
     </div>
 
     <div id="contact-popup" class="popup-page">
-        <div class="popup-content">
+        <div class="popup-content-1">
             <button class="close-button" onclick="closePopup('contact-popup')">&times;</button>
             <h1>contact</h1>
             <p>
                 If you have a suggestion for a place to be added or updated, feedback about the project, or just want to say hi, 
-                you can contact me via <a href="https://www.linkedin.com/in/vmurrant/">LinkedIn</a> or <a href="torithew95@gmail.com">email</a>.
+                you can contact me via <a href="https://www.linkedin.com/in/vmurrant/">LinkedIn</a> or <a href="torimurrant@protonmail.com">email</a>.
             </p>
         </div>
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
     <script>
         // initialise map
         var map = L.map('map', {
         zoomControl: false // disable the default zoom control
         }).setView([-32.928, 151.750], 12.8);
-
-        // custom zoom controls
-        L.control.zoom({
-        position: 'bottomright' // move zoom control to bottom right
-        }).addTo(map);
 
         // base map
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q', {
@@ -399,7 +529,7 @@
         id: 'tmurrant/clvlz3ce8019i01q190ig5dvt',
         tileSize: 512,
         zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q' // replace this with your Mapbox access token
+        accessToken: 'pk.eyJ1IjoidG11cnJhbnQiLCJhIjoiY2xpamh3aGh3MDdkMzNwcGVsNWtkYTRocCJ9.qCJ8olgYw2nqd4HPCXQ7-Q'
         }).addTo(map);
 
         // create icon cluster colour function
@@ -413,7 +543,6 @@
                 }
             }
 
-        // create marker cluster groups
         var playgroundCluster = L.markerClusterGroup({
             iconCreateFunction: createClusterIcon('#FF8593'),
             showCoverageOnHover: false,
@@ -463,96 +592,289 @@
             maxClusterRadius: 100
         });
 
+        var gymCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#4682b4'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+
+        var attractionCluster = L.markerClusterGroup({
+            iconCreateFunction: createClusterIcon('#FF6347'),
+            showCoverageOnHover: false,
+            disableClusteringAtZoom: 16,
+            maxClusterRadius: 100
+        });
+
+        // layer toggle function
+        document.getElementById('layers-link').addEventListener('click', function() {
+            document.getElementById('layers-popup').style.display = 'flex';
+        });
+
+        var playgroupLayerVisible = true;
+        var classesLayerVisible = true;
+        var communityGardenLayerVisible = true;
+        var poolLayerVisible = true;
+        var libraryLayerVisible = true;
+        var cafeLayerVisible = true;
+        var restaurantLayerVisible = true;
+        var gymLayerVisible = true;
+        var attractionLayerVisible = true;
+
+        function applyLayerToggle() {
+            var playgroundLayer = document.getElementById('playground-layer').checked;
+            var playgroupLayer = document.getElementById('playgroup-layer').checked;
+            var classesLayer = document.getElementById('classes-layer').checked;
+            var communityGardenLayer = document.getElementById('community-garden-layer').checked;
+            var poolLayer = document.getElementById('pool-layer').checked;
+            var libraryLayer = document.getElementById('library-layer').checked;
+            var cafeLayer = document.getElementById('cafe-layer').checked;
+            var restaurantLayer = document.getElementById('restaurant-layer').checked;
+            var gymLayer = document.getElementById('gym-layer').checked;
+            var attractionLayer = document.getElementById('attraction-layer').checked;
+
+            if (playgroundLayer) {
+                map.addLayer(playgroundCluster);
+            } else {
+                map.removeLayer(playgroundCluster);
+            }
+
+            if (playgroupLayer) {
+                map.addLayer(playgroupCluster);
+            } else {
+                map.removeLayer(playgroupCluster);
+            }
+
+            if (classesLayer) {
+                map.addLayer(classesCluster);
+            } else {
+                map.removeLayer(classesCluster);
+            }
+
+            if (communityGardenLayer) {
+                map.addLayer(communityGardenCluster);
+            } else {
+                map.removeLayer(communityGardenCluster);
+            }
+
+            if (poolLayer) {
+                map.addLayer(poolCluster);
+            } else {
+                map.removeLayer(poolCluster);
+            }
+
+            if (libraryLayer) {
+                map.addLayer(libraryCluster);
+            } else {
+                map.removeLayer(libraryCluster);
+            }
+
+            if (cafeLayer) {
+                map.addLayer(cafeCluster);
+            } else {
+                map.removeLayer(cafeCluster);
+            }
+
+            if (restaurantLayer) {
+                map.addLayer(restaurantCluster);
+            } else {
+                map.removeLayer(restaurantCluster);
+            }
+
+            if (gymLayer) {
+                map.addLayer(gymCluster);
+            } else {
+                map.removeLayer(gymCluster);
+            }
+
+            if (attractionLayer) {
+                map.addLayer(attractionCluster);
+            } else {
+                map.removeLayer(attractionCluster);
+            }
+
+            closePopup('layers-popup');
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = 'none';
+        }
+
         // add playgrounds geojson
-        // fetch data
-        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
-            .then(response => response.json())
-            .then(data => {
-                L.geoJSON(data, {
-                pointToLayer: function (feature, latlng) {
-                    return L.marker(latlng, {
-                    icon: L.icon({
-                        iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
-                        iconSize: [26, 26],
-                        iconAnchor: [16, 16],
-                        popupAnchor: [0, -16]
+            var allPlaygroundData;
+
+            function loadAllData() {
+                fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgrounds.geojson')
+                    .then(response => response.json())
+                    .then(data => {
+                        allPlaygroundData = data;
+
+                        var geoJsonLayer = L.geoJSON(allPlaygroundData, {
+                            pointToLayer: function (feature, latlng) {
+                                return L.marker(latlng, {
+                                    icon: L.icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
+                                        iconSize: [26, 26],
+                                        iconAnchor: [16, 16],
+                                        popupAnchor: [0, -16]
+                                    })
+                                });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                let cafeIcon = feature.properties.Cafes === 'Yes' 
+                                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
+                                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
+
+                                let fenceIcon = feature.properties.Fenced === 'Yes' 
+                                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
+                                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
+
+                                let toiletIcon = feature.properties.Toilets === 'Yes' 
+                                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
+                                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
+
+                                let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
+                                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
+                                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
+
+                                layer.bindPopup(
+                                `
+                                    <h3>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                            <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                            ${feature.properties.Park}
+                                        </a>
+                                    </h3>
+                                    <div class="pill-button-1">Playground</div><br>
+                                    <img src="${cafeIcon}" style="width:24px;height:24px;">
+                                    <img src="${fenceIcon}" style="width:24px;height:24px;">
+                                    <img src="${toiletIcon}" style="width:24px;height:24px;">
+                                    <img src="${inclusiveIcon}" style="width:24px;height:24px;">
+                                `);
+                            }
+                        });
+
+                        playgroundCluster.addLayer(geoJsonLayer);
+                        map.addLayer(playgroundCluster);
                     })
-                    });
-                },
-                onEachFeature: (feature, layer) => {
-                    let cafeIcon = feature.properties.Cafes === 'Yes' 
-                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
-                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
-                    
-                    let fenceIcon = feature.properties.Fenced === 'Yes' 
-                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
-                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
+            }
 
-                    let toiletIcon = feature.properties.Toilets === 'Yes' 
-                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
-                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
-                    
-                    let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
-                    ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
-                    : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
-                    
-                    //add data to layer pop-ups
-                    layer.bindPopup(
-                    `
-                        <h3>
-                            <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
-                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
-                                ${feature.properties.Park}
-                            </a>
-                        </h3>
-                        <div class="pill-button-1">Playground</div>
-                    <br>
-                        <img src="${cafeIcon}" style="width:24px;height:24px;">
-                        <img src="${fenceIcon}" style="width:24px;height:24px;">
-                        <img src="${toiletIcon}" style="width:24px;height:24px;">
-                        <img src="${inclusiveIcon}" style="width:24px;height:24px;">
-                    <br>
-                        
-                    `
-                    );
-                }
-                }).addTo(playgroundCluster);
+            loadAllData();
+            document.getElementById('filter-link').addEventListener('click', function() {
+                document.getElementById('filter-popup').style.display = 'flex';
             });
-            map.addLayer(playgroundCluster);
 
-        // add playgroups geojson
-        // fetch data
-        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgroup.geojson')
-            .then(response => response.json())
-            .then(data => {
-                L.geoJSON(data, {
+            function applyFilters() {
+                var form = document.getElementById('filter-form');
+                var filters = {
+                    cafe: form.elements['cafe'].checked ? form.elements['cafe'].value : null,
+                    fence: form.elements['fence'].checked ? form.elements['fence'].value : null,
+                    toilet: form.elements['toilet'].checked ? form.elements['toilet'].value : null,
+                    inclusive: form.elements['inclusive'].checked ? form.elements['inclusive'].value : null,
+                    age: []
+                };
+
+                // Gather all selected age values
+                var ageElements = form.elements['age'];
+                for (var i = 0; i < ageElements.length; i++) {
+                    if (ageElements[i].checked) {
+                        filters.age.push(ageElements[i].value);
+                    }
+                }
+
+                playgroundCluster.clearLayers();
+
+                var filteredData = allPlaygroundData.features.filter(function(feature) {
+                    return (!filters.cafe || feature.properties.Cafes === filters.cafe) &&
+                        (!filters.fence || feature.properties.Fenced === filters.fence) &&
+                        (!filters.toilet || feature.properties.Toilets === filters.toilet) &&
+                        (!filters.inclusive || feature.properties.Inclusive === filters.inclusive) &&
+                        (filters.age.length === 0 || filters.age.includes(feature.properties.Age));
+                });
+
+                var geoJsonLayer = L.geoJSON(filteredData, {
                     pointToLayer: function (feature, latlng) {
                         return L.marker(latlng, {
                             icon: L.icon({
-                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/playgroup.svg',
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/icons/playground.svg',
                                 iconSize: [26, 26],
                                 iconAnchor: [16, 16],
                                 popupAnchor: [0, -16]
                             })
-                        }).bindPopup(
-                            `<h3>
+                        });
+                    },
+                    onEachFeature: function (feature, layer) {
+                        let cafeIcon = feature.properties.Cafes === 'Yes' 
+                            ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/cafe_true.svg'
+                            : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/cafe_null.svg';
+
+                        let fenceIcon = feature.properties.Fenced === 'Yes' 
+                            ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/fence_true.svg'
+                            : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/68d9d3d2835765086bdc78859024032690682e0a/icons/fence_null.svg';
+
+                        let toiletIcon = feature.properties.Toilets === 'Yes' 
+                            ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_true.svg'
+                            : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/31b9945b09883cb8eb6e4719f803f0d1145d13d2/icons/toilet_null.svg';
+
+                        let inclusiveIcon = feature.properties.Inclusive === 'Yes' 
+                            ? 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_true.svg'
+                            : 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/ee43a773f9a7a825cb5c7735648e92c4be77ede3/icons/inclusive_null.svg';
+
+                        layer.bindPopup(
+                        `
+                            <h3>
                                 <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
-                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
-                                ${feature.properties.Name}
+                                    <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                    ${feature.properties.Park}
                                 </a>
                             </h3>
-                            <div class="pill-button-2">Playgroup</div>
-                            <br>
-                            The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}" target=”_blank>here</a> 
-                            for more information.`
-                        );
+                            <div class="pill-button-1">Playground</div><br>
+                            <img src="${cafeIcon}" style="width:24px;height:24px;">
+                            <img src="${fenceIcon}" style="width:24px;height:24px;">
+                            <img src="${toiletIcon}" style="width:24px;height:24px;">
+                            <img src="${inclusiveIcon}" style="width:24px;height:24px;">
+                        `);
                     }
-                }).addTo(playgroupCluster);
-            })
-            map.addLayer(playgroupCluster);
+                });
+
+                playgroundCluster.addLayer(geoJsonLayer);
+                map.addLayer(playgroundCluster);
+                closePopup('filter-popup');
+            }
+
+
+
+            // add playgroups geojson
+            fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/playgroup.geojson')
+                .then(response => response.json())
+                .then(data => {
+                    L.geoJSON(data, {
+                        pointToLayer: function (feature, latlng) {
+                            return L.marker(latlng, {
+                                icon: L.icon({
+                                    iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a5501473253880135fcc20a96d8702264c9ed1f3/icons/playgroup.svg',
+                                    iconSize: [26, 26],
+                                    iconAnchor: [16, 16],
+                                    popupAnchor: [0, -16]
+                                })
+                            }).bindPopup(
+                                `<h3>
+                                    <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                    <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                    ${feature.properties.Name}
+                                    </a>
+                                </h3>
+                                <div class="pill-button-2">Playgroup</div>
+                                <br>
+                                The cost is ${feature.properties.Cost}. Click <a href="${feature.properties.URL}" target=”_blank>here</a> 
+                                for more information.`
+                            );
+                        }
+                    }).addTo(playgroupCluster);
+                })
+                map.addLayer(playgroupCluster);
 
         // add classes geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/classes.geojson')
             .then(response => response.json())
             .then(data => {
@@ -583,7 +905,6 @@
             map.addLayer(classesCluster);
 
         // add community gardens geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/community_garden.geojson')
             .then(response => response.json())
             .then(data => {
@@ -613,7 +934,6 @@
             map.addLayer(communityGardenCluster);
 
         // add pools geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/pool.geojson')
             .then(response => response.json())
             .then(data => {
@@ -643,7 +963,6 @@
             map.addLayer(poolCluster);
 
         // add libraries geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/library.geojson')
             .then(response => response.json())
             .then(data => {
@@ -673,7 +992,6 @@
             map.addLayer(libraryCluster);
 
         // add cafes geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/cafe.geojson')
             .then(response => response.json())
             .then(data => {
@@ -703,7 +1021,6 @@
             map.addLayer(cafeCluster);
 
         // add restaurants geojson
-        // fetch data
         fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/restaurant.geojson')
             .then(response => response.json())
             .then(data => {
@@ -732,7 +1049,92 @@
             })
             map.addLayer(restaurantCluster);
 
+        // add gyms geojson
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/gyms.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/4431624ecf06f1c59aa7ddd163dcc12b9ab850d5/icons/gym.svg',
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
+                            <div class="pill-button-9">Gym</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}" target="_blank">here</a> for more information.`
+                        );
+                    }
+                }).addTo(gymCluster);
+            })
+            map.addLayer(gymCluster);
+
+        // add attractions geojson
+        fetch('https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/main/layers/attractions.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        function getIconUrl(type) {
+                            switch (type) {
+                                case 'Attraction':
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/03f9f01719d0c755cc07787ab88f794a5e60f2d5/icons/attractions_camera.svg';
+                                case 'Zoo':
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/03f9f01719d0c755cc07787ab88f794a5e60f2d5/icons/attractions_zoo.svg';
+                                case 'Museum':
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/03f9f01719d0c755cc07787ab88f794a5e60f2d5/icons/attractions_museum.svg';
+                                case 'Art Gallery':
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/03f9f01719d0c755cc07787ab88f794a5e60f2d5/icons/attractions_art-gallery.svg';
+                                case 'Playground':
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/a8e6936d54ad91c68d7fb00548bb8563920d9696/icons/attractions_playground.svg';
+                                default:
+                                    return 'https://raw.githubusercontent.com/torimurrant/familyfriendmapproject/03f9f01719d0c755cc07787ab88f794a5e60f2d5/icons/attractions_camera.svg';
+                            }
+                        }
+
+                        return L.marker(latlng, {
+                            icon: L.icon({
+                                iconUrl: getIconUrl(feature.properties.Type),
+                                iconSize: [26, 26],
+                                iconAnchor: [16, 16],
+                                popupAnchor: [0, -16]
+                            })
+                        }).bindPopup(
+                            `<h3>
+                                <a href="https://www.google.com/maps/search/?api=1&query=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}" target="_blank" class="google-maps-link">
+                                <img src="https://github.com/torimurrant/familyfriendmapproject/blob/main/icons/icon.png?raw=true" style="width:24px;height:24px;">
+                                ${feature.properties.Name}
+                                </a>
+                            </h3>
+                            <div class="pill-button-10">${feature.properties.Type}</div>
+                            <br>
+                            Click <a href="${feature.properties.URL}" target="_blank">here</a> for more information.`
+                        );
+                    }
+                }).addTo(attractionCluster);
+            });
+        map.addLayer(attractionCluster);
+
+
         // page pop-ups
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = 'none';
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var popup = document.getElementById("welcome-popup");
+            popup.style.display = "flex";
+        });
+
         document.getElementById('about-link').addEventListener('click', function() {
             document.getElementById('about-popup').style.display = 'flex';
         });
